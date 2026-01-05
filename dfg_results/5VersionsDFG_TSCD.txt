@@ -1,0 +1,160 @@
+==================================================
+Dataset: TSCD
+Models: ['resnet', 'vgg16', 'squeezenet', 'densenet', 'alexnet']
+bug_ids: [0, 0, 0, 0, 0]
+model_test_acc: [0.9987999999999999, 0.9984999999999999, 0.9995, 0.9969, 0.9858]
+dfg_accuracy: 0.9998, baseline_accuracy: 0.9999, upper_limit: 1.0000
+absolute improvement rate: -0.0001, relative improvement rate: -2.0000
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['densenet', 'squeezenet', 'vgg16', 'alexnet', 'resnet']
+bug_ids: [1, 1, 1, 1, 1]
+model_test_acc: [0.9991, 0.9584, 0.9981, 0.9933, 0.9964]
+dfg_accuracy: 0.9995, baseline_accuracy: 0.9995, upper_limit: 0.9999
+absolute improvement rate: 0.0001, relative improvement rate: 0.1429
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['alexnet', 'squeezenet', 'vgg16', 'densenet', 'resnet']
+bug_ids: [2, 2, 2, 2, 2]
+model_test_acc: [0.9925, 0.9098, 0.9992, 0.9990000000000001, 0.9845999999999999]
+dfg_accuracy: 0.9999, baseline_accuracy: 0.9991, upper_limit: 0.9999
+absolute improvement rate: 0.0008, relative improvement rate: 0.9167
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['squeezenet', 'densenet', 'alexnet', 'resnet', 'vgg16']
+bug_ids: [3, 3, 3, 3, 3]
+model_test_acc: [0.9809, 0.9956999999999999, 0.9926, 0.9915999999999999, 0.9995999999999999]
+dfg_accuracy: 0.9996, baseline_accuracy: 0.9997, upper_limit: 1.0000
+absolute improvement rate: -0.0001, relative improvement rate: -0.2000
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['densenet', 'alexnet', 'vgg16', 'squeezenet', 'resnet']
+bug_ids: [4, 4, 4, 4, 4]
+model_test_acc: [0.9987, 0.9917, 0.9972, 0.9763, 0.9912000000000001]
+dfg_accuracy: 0.9995, baseline_accuracy: 0.9993, upper_limit: 0.9999
+absolute improvement rate: 0.0002, relative improvement rate: 0.3333
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['vgg16', 'squeezenet', 'densenet', 'resnet', 'alexnet']
+bug_ids: [5, 5, 5, 5, 5]
+model_test_acc: [0.9914000000000001, 0.7515999999999999, 0.9884999999999999, 0.9706999999999999, 0.9087000000000001]
+dfg_accuracy: 0.9960, baseline_accuracy: 0.9943, upper_limit: 0.9997
+absolute improvement rate: 0.0018, relative improvement rate: 0.3291
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['alexnet', 'resnet', 'vgg16', 'squeezenet', 'densenet']
+bug_ids: [6, 6, 6, 6, 6]
+model_test_acc: [0.9928, 0.9928, 0.998, 0.9327, 0.9968]
+dfg_accuracy: 0.9996, baseline_accuracy: 0.9995, upper_limit: 0.9999
+absolute improvement rate: 0.0001, relative improvement rate: 0.1667
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['alexnet', 'densenet', 'resnet', 'vgg16', 'squeezenet']
+bug_ids: [8, 8, 8, 8, 8]
+model_test_acc: [0.9891, 0.9414, 0.9462, 0.9525, 0.95]
+dfg_accuracy: 0.9934, baseline_accuracy: 0.9882, upper_limit: 0.9995
+absolute improvement rate: 0.0053, relative improvement rate: 0.4667
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['vgg16', 'resnet', 'densenet', 'squeezenet', 'alexnet']
+bug_ids: [9, 9, 9, 9, 9]
+model_test_acc: [0.9931, 0.9912000000000001, 0.9915999999999999, 0.9373999999999999, 0.9783]
+dfg_accuracy: 0.9981, baseline_accuracy: 0.9973, upper_limit: 0.9999
+absolute improvement rate: 0.0008, relative improvement rate: 0.2895
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['vgg16', 'squeezenet', 'alexnet', 'resnet', 'densenet']
+bug_ids: [10, 10, 10, 10, 10]
+model_test_acc: [0.9838, 0.9862000000000001, 0.9254000000000001, 0.9747, 0.8108]
+dfg_accuracy: 0.9833, baseline_accuracy: 0.9886, upper_limit: 0.9969
+absolute improvement rate: -0.0053, relative improvement rate: -0.6364
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['resnet', 'alexnet', 'vgg16', 'densenet', 'squeezenet']
+bug_ids: [1, 0, 0, 0, 0]
+model_test_acc: [0.9964, 0.9858, 0.9984999999999999, 0.9969, 0.9995]
+dfg_accuracy: 0.9999, baseline_accuracy: 0.9999, upper_limit: 1.0000
+absolute improvement rate: 0.0000, relative improvement rate: 0.0000
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['squeezenet', 'vgg16', 'resnet', 'alexnet', 'densenet']
+bug_ids: [2, 0, 0, 0, 0]
+model_test_acc: [0.9098, 0.9984999999999999, 0.9987999999999999, 0.9858, 0.9969]
+dfg_accuracy: 0.9998, baseline_accuracy: 0.9995, upper_limit: 1.0000
+absolute improvement rate: 0.0003, relative improvement rate: 0.5714
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['vgg16', 'alexnet', 'densenet', 'squeezenet', 'resnet']
+bug_ids: [3, 0, 0, 0, 0]
+model_test_acc: [0.9995999999999999, 0.9858, 0.9969, 0.9995, 0.9987999999999999]
+dfg_accuracy: 0.9999, baseline_accuracy: 1.0000, upper_limit: 1.0000
+absolute improvement rate: -0.0001, relative improvement rate: -inf
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['squeezenet', 'vgg16', 'densenet', 'alexnet', 'resnet']
+bug_ids: [4, 0, 0, 0, 0]
+model_test_acc: [0.9763, 0.9984999999999999, 0.9969, 0.9858, 0.9987999999999999]
+dfg_accuracy: 0.9997, baseline_accuracy: 0.9997, upper_limit: 1.0000
+absolute improvement rate: 0.0000, relative improvement rate: 0.0000
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['vgg16', 'squeezenet', 'alexnet', 'resnet', 'densenet']
+bug_ids: [5, 0, 0, 0, 0]
+model_test_acc: [0.9914000000000001, 0.9995, 0.9858, 0.9987999999999999, 0.9969]
+dfg_accuracy: 0.9999, baseline_accuracy: 0.9999, upper_limit: 1.0000
+absolute improvement rate: -0.0001, relative improvement rate: -1.0000
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['squeezenet', 'vgg16', 'densenet', 'resnet', 'alexnet']
+bug_ids: [6, 0, 0, 0, 0]
+model_test_acc: [0.9327, 0.9984999999999999, 0.9969, 0.9987999999999999, 0.9858]
+dfg_accuracy: 0.9997, baseline_accuracy: 0.9997, upper_limit: 1.0000
+absolute improvement rate: 0.0001, relative improvement rate: 0.2000
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['squeezenet', 'resnet', 'vgg16', 'densenet', 'alexnet']
+bug_ids: [7, 0, 0, 0, 0]
+model_test_acc: [0.9798, 0.9987999999999999, 0.9984999999999999, 0.9969, 0.9858]
+dfg_accuracy: 0.9997, baseline_accuracy: 0.9995, upper_limit: 1.0000
+absolute improvement rate: 0.0002, relative improvement rate: 0.3750
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['densenet', 'vgg16', 'alexnet', 'resnet', 'squeezenet']
+bug_ids: [8, 0, 0, 0, 0]
+model_test_acc: [0.9414, 0.9984999999999999, 0.9858, 0.9987999999999999, 0.9995]
+dfg_accuracy: 0.9996, baseline_accuracy: 1.0000, upper_limit: 1.0000
+absolute improvement rate: -0.0004, relative improvement rate: -inf
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['alexnet', 'densenet', 'vgg16', 'resnet', 'squeezenet']
+bug_ids: [9, 0, 0, 0, 0]
+model_test_acc: [0.9783, 0.9969, 0.9984999999999999, 0.9987999999999999, 0.9995]
+dfg_accuracy: 0.9999, baseline_accuracy: 1.0000, upper_limit: 1.0000
+absolute improvement rate: -0.0001, relative improvement rate: -inf
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['resnet', 'squeezenet', 'densenet', 'vgg16', 'alexnet']
+bug_ids: [10, 0, 0, 0, 0]
+model_test_acc: [0.9747, 0.9995, 0.9969, 0.9984999999999999, 0.9858]
+dfg_accuracy: 0.9995, baseline_accuracy: 0.9999, upper_limit: 1.0000
+absolute improvement rate: -0.0004, relative improvement rate: -3.0000
+==================================================

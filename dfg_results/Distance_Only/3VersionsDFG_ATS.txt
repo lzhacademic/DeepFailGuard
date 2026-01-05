@@ -1,0 +1,273 @@
+==================================================
+Dataset: ATS
+Models: ['vgg16', 'squeezenet', 'densenet']
+bug_ids: [0, 0, 0]
+model_test_acc: [0.976, 0.9475, 0.9759]
+dfg_accuracy: 0.9769, baseline_accuracy: 0.9752, upper_limit: 0.9894
+absolute improvement rate: 0.0017, relative improvement rate: 0.1226
+absolute_wrong_1: 31, absolute_wrong_2: 302, absolute_wrong_3: 59
+absolute_wrong_12: 91, absolute_wrong_13: 24, absolute_wrong_23: 63
+all_wrong: 115
+e1: 392, e2: 178, e3: 115
+e2_baseline_correct: 23, e2_DFG_correct: 96, e2_DFG_revise: 81
+==================================================
+==================================================
+Dataset: ATS
+Models: ['squeezenet', 'resnet', 'vgg16']
+bug_ids: [1, 1, 1]
+model_test_acc: [0.8894, 0.9428, 0.9584]
+dfg_accuracy: 0.9578, baseline_accuracy: 0.9600, upper_limit: 0.9818
+absolute improvement rate: -0.0022, relative improvement rate: -0.1013
+absolute_wrong_1: 762, absolute_wrong_2: 218, absolute_wrong_3: 147
+absolute_wrong_12: 171, absolute_wrong_13: 72, absolute_wrong_23: 36
+all_wrong: 198
+e1: 1127, e2: 279, e3: 198
+e2_baseline_correct: 42, e2_DFG_correct: 154, e2_DFG_revise: 132
+==================================================
+==================================================
+Dataset: ATS
+Models: ['densenet', 'resnet', 'vgg16']
+bug_ids: [2, 2, 2]
+model_test_acc: [0.9346, 0.9601999999999999, 0.9642000000000001]
+dfg_accuracy: 0.9713, baseline_accuracy: 0.9725, upper_limit: 0.9836
+absolute improvement rate: -0.0012, relative improvement rate: -0.1074
+absolute_wrong_1: 401, absolute_wrong_2: 165, absolute_wrong_3: 79
+absolute_wrong_12: 45, absolute_wrong_13: 87, absolute_wrong_23: 45
+all_wrong: 178
+e1: 645, e2: 177, e3: 178
+e2_baseline_correct: 56, e2_DFG_correct: 77, e2_DFG_revise: 40
+==================================================
+==================================================
+Dataset: ATS
+Models: ['vgg16', 'resnet', 'squeezenet']
+bug_ids: [3, 3, 3]
+model_test_acc: [0.973, 0.9399, 0.8542000000000001]
+dfg_accuracy: 0.9539, baseline_accuracy: 0.9637, upper_limit: 0.9878
+absolute improvement rate: -0.0097, relative improvement rate: -0.4046
+absolute_wrong_1: 24, absolute_wrong_2: 325, absolute_wrong_3: 1195
+absolute_wrong_12: 39, absolute_wrong_13: 98, absolute_wrong_23: 157
+all_wrong: 133
+e1: 1544, e2: 294, e3: 133
+e2_baseline_correct: 32, e2_DFG_correct: 159, e2_DFG_revise: 141
+==================================================
+==================================================
+Dataset: ATS
+Models: ['squeezenet', 'resnet', 'vgg16']
+bug_ids: [4, 4, 4]
+model_test_acc: [0.855, 0.9448000000000001, 0.9703]
+dfg_accuracy: 0.9557, baseline_accuracy: 0.9637, upper_limit: 0.9846
+absolute improvement rate: -0.0080, relative improvement rate: -0.3833
+absolute_wrong_1: 1160, absolute_wrong_2: 185, absolute_wrong_3: 62
+absolute_wrong_12: 202, absolute_wrong_13: 47, absolute_wrong_23: 46
+all_wrong: 168
+e1: 1407, e2: 295, e3: 168
+e2_baseline_correct: 68, e2_DFG_correct: 171, e2_DFG_revise: 136
+==================================================
+==================================================
+Dataset: ATS
+Models: ['alexnet', 'vgg16', 'resnet']
+bug_ids: [5, 5, 5]
+model_test_acc: [0.9251, 0.9638, 0.848]
+dfg_accuracy: 0.9495, baseline_accuracy: 0.9500, upper_limit: 0.9773
+absolute improvement rate: -0.0005, relative improvement rate: -0.0168
+absolute_wrong_1: 273, absolute_wrong_2: 49, absolute_wrong_3: 1099
+absolute_wrong_12: 42, absolute_wrong_13: 253, absolute_wrong_23: 56
+all_wrong: 247
+e1: 1421, e2: 351, e3: 247
+e2_baseline_correct: 54, e2_DFG_correct: 197, e2_DFG_revise: 161
+==================================================
+==================================================
+Dataset: ATS
+Models: ['vgg16', 'resnet', 'alexnet']
+bug_ids: [6, 6, 6]
+model_test_acc: [0.9706999999999999, 0.9687, 0.9576]
+dfg_accuracy: 0.9780, baseline_accuracy: 0.9733, upper_limit: 0.9894
+absolute improvement rate: 0.0047, relative improvement rate: 0.2914
+absolute_wrong_1: 106, absolute_wrong_2: 116, absolute_wrong_3: 172
+absolute_wrong_12: 17, absolute_wrong_13: 81, absolute_wrong_23: 93
+all_wrong: 115
+e1: 394, e2: 191, e3: 115
+e2_baseline_correct: 16, e2_DFG_correct: 95, e2_DFG_revise: 87
+==================================================
+==================================================
+Dataset: ATS
+Models: ['resnet', 'densenet', 'squeezenet']
+bug_ids: [7, 7, 7]
+model_test_acc: [0.9484, 0.9655, 0.9504]
+dfg_accuracy: 0.9744, baseline_accuracy: 0.9702, upper_limit: 0.9874
+absolute improvement rate: 0.0042, relative improvement rate: 0.2460
+absolute_wrong_1: 255, absolute_wrong_2: 111, absolute_wrong_3: 241
+absolute_wrong_12: 67, absolute_wrong_13: 102, absolute_wrong_23: 60
+all_wrong: 137
+e1: 607, e2: 229, e3: 137
+e2_baseline_correct: 42, e2_DFG_correct: 129, e2_DFG_revise: 107
+==================================================
+==================================================
+Dataset: ATS
+Models: ['squeezenet', 'resnet', 'alexnet']
+bug_ids: [8, 8, 8]
+model_test_acc: [0.8676999999999999, 0.8654000000000001, 0.9201]
+dfg_accuracy: 0.9283, baseline_accuracy: 0.9216, upper_limit: 0.9657
+absolute improvement rate: 0.0067, relative improvement rate: 0.1521
+absolute_wrong_1: 649, absolute_wrong_2: 716, absolute_wrong_3: 206
+absolute_wrong_12: 251, absolute_wrong_13: 165, absolute_wrong_23: 125
+all_wrong: 373
+e1: 1571, e2: 541, e3: 373
+e2_baseline_correct: 61, e2_DFG_correct: 292, e2_DFG_revise: 264
+==================================================
+==================================================
+Dataset: ATS
+Models: ['squeezenet', 'alexnet', 'resnet']
+bug_ids: [9, 9, 9]
+model_test_acc: [0.8301000000000001, 0.9356, 0.9039]
+dfg_accuracy: 0.9357, baseline_accuracy: 0.9361, upper_limit: 0.9743
+absolute improvement rate: -0.0004, relative improvement rate: -0.0096
+absolute_wrong_1: 1157, absolute_wrong_2: 149, absolute_wrong_3: 493
+absolute_wrong_12: 205, absolute_wrong_13: 206, absolute_wrong_23: 66
+all_wrong: 280
+e1: 1799, e2: 477, e3: 280
+e2_baseline_correct: 62, e2_DFG_correct: 272, e2_DFG_revise: 230
+==================================================
+==================================================
+Dataset: ATS
+Models: ['densenet', 'squeezenet', 'resnet']
+bug_ids: [10, 10, 10]
+model_test_acc: [0.9743999999999999, 0.9434, 0.9595999999999999]
+dfg_accuracy: 0.9744, baseline_accuracy: 0.9718, upper_limit: 0.9879
+absolute improvement rate: 0.0026, relative improvement rate: 0.1600
+absolute_wrong_1: 52, absolute_wrong_2: 319, absolute_wrong_3: 148
+absolute_wrong_12: 49, absolute_wrong_13: 45, absolute_wrong_23: 115
+all_wrong: 132
+e1: 519, e2: 209, e3: 132
+e2_baseline_correct: 34, e2_DFG_correct: 114, e2_DFG_revise: 88
+==================================================
+==================================================
+Dataset: ATS
+Models: ['vgg16', 'densenet', 'alexnet']
+bug_ids: [1, 0, 0]
+model_test_acc: [0.9584, 0.9759, 0.9329000000000001]
+dfg_accuracy: 0.9758, baseline_accuracy: 0.9712, upper_limit: 0.9871
+absolute improvement rate: 0.0046, relative improvement rate: 0.2890
+absolute_wrong_1: 145, absolute_wrong_2: 67, absolute_wrong_3: 396
+absolute_wrong_12: 14, absolute_wrong_13: 154, absolute_wrong_23: 40
+all_wrong: 140
+e1: 608, e2: 208, e3: 140
+e2_baseline_correct: 35, e2_DFG_correct: 134, e2_DFG_revise: 112
+==================================================
+==================================================
+Dataset: ATS
+Models: ['alexnet', 'densenet', 'resnet']
+bug_ids: [2, 0, 0]
+model_test_acc: [0.951, 0.9759, 0.9641]
+dfg_accuracy: 0.9778, baseline_accuracy: 0.9768, upper_limit: 0.9891
+absolute improvement rate: 0.0009, relative improvement rate: 0.0752
+absolute_wrong_1: 308, absolute_wrong_2: 49, absolute_wrong_3: 155
+absolute_wrong_12: 41, absolute_wrong_13: 65, absolute_wrong_23: 52
+all_wrong: 119
+e1: 512, e2: 158, e3: 119
+e2_baseline_correct: 25, e2_DFG_correct: 83, e2_DFG_revise: 66
+==================================================
+==================================================
+Dataset: ATS
+Models: ['squeezenet', 'alexnet', 'vgg16']
+bug_ids: [3, 0, 0]
+model_test_acc: [0.8542000000000001, 0.9329000000000001, 0.976]
+dfg_accuracy: 0.9553, baseline_accuracy: 0.9530, upper_limit: 0.9863
+absolute improvement rate: 0.0023, relative improvement rate: 0.0691
+absolute_wrong_1: 1033, absolute_wrong_2: 201, absolute_wrong_3: 31
+absolute_wrong_12: 350, absolute_wrong_13: 51, absolute_wrong_23: 30
+all_wrong: 149
+e1: 1265, e2: 431, e3: 149
+e2_baseline_correct: 69, e2_DFG_correct: 255, e2_DFG_revise: 218
+==================================================
+==================================================
+Dataset: ATS
+Models: ['resnet', 'alexnet', 'densenet']
+bug_ids: [4, 0, 0]
+model_test_acc: [0.9448000000000001, 0.9329000000000001, 0.9759]
+dfg_accuracy: 0.9754, baseline_accuracy: 0.9696, upper_limit: 0.9842
+absolute improvement rate: 0.0058, relative improvement rate: 0.3962
+absolute_wrong_1: 251, absolute_wrong_2: 416, absolute_wrong_3: 37
+absolute_wrong_12: 134, absolute_wrong_13: 44, absolute_wrong_23: 8
+all_wrong: 172
+e1: 704, e2: 186, e3: 172
+e2_baseline_correct: 27, e2_DFG_correct: 136, e2_DFG_revise: 119
+==================================================
+==================================================
+Dataset: ATS
+Models: ['densenet', 'resnet', 'squeezenet']
+bug_ids: [5, 0, 0]
+model_test_acc: [0.8994, 0.9641, 0.9475]
+dfg_accuracy: 0.9692, baseline_accuracy: 0.9646, upper_limit: 0.9863
+absolute improvement rate: 0.0046, relative improvement rate: 0.2119
+absolute_wrong_1: 730, absolute_wrong_2: 96, absolute_wrong_3: 172
+absolute_wrong_12: 56, absolute_wrong_13: 160, absolute_wrong_23: 90
+all_wrong: 149
+e1: 998, e2: 306, e3: 149
+e2_baseline_correct: 70, e2_DFG_correct: 168, e2_DFG_revise: 124
+==================================================
+==================================================
+Dataset: ATS
+Models: ['vgg16', 'alexnet', 'squeezenet']
+bug_ids: [6, 0, 0]
+model_test_acc: [0.9706999999999999, 0.9329000000000001, 0.9475]
+dfg_accuracy: 0.9721, baseline_accuracy: 0.9667, upper_limit: 0.9875
+absolute improvement rate: 0.0054, relative improvement rate: 0.2611
+absolute_wrong_1: 74, absolute_wrong_2: 378, absolute_wrong_3: 170
+absolute_wrong_12: 30, absolute_wrong_13: 79, absolute_wrong_23: 186
+all_wrong: 136
+e1: 622, e2: 295, e3: 136
+e2_baseline_correct: 69, e2_DFG_correct: 180, e2_DFG_revise: 133
+==================================================
+==================================================
+Dataset: ATS
+Models: ['resnet', 'squeezenet', 'densenet']
+bug_ids: [7, 0, 0]
+model_test_acc: [0.9484, 0.9475, 0.9759]
+dfg_accuracy: 0.9776, baseline_accuracy: 0.9741, upper_limit: 0.9859
+absolute improvement rate: 0.0035, relative improvement rate: 0.2946
+absolute_wrong_1: 263, absolute_wrong_2: 276, absolute_wrong_3: 55
+absolute_wrong_12: 117, absolute_wrong_13: 28, absolute_wrong_23: 25
+all_wrong: 153
+e1: 594, e2: 170, e3: 153
+e2_baseline_correct: 41, e2_DFG_correct: 113, e2_DFG_revise: 81
+==================================================
+==================================================
+Dataset: ATS
+Models: ['resnet', 'squeezenet', 'densenet']
+bug_ids: [8, 0, 0]
+model_test_acc: [0.8654000000000001, 0.9475, 0.9759]
+dfg_accuracy: 0.9670, baseline_accuracy: 0.9641, upper_limit: 0.9870
+absolute improvement rate: 0.0029, relative improvement rate: 0.1280
+absolute_wrong_1: 1058, absolute_wrong_2: 183, absolute_wrong_3: 27
+absolute_wrong_12: 210, absolute_wrong_13: 56, absolute_wrong_23: 37
+all_wrong: 141
+e1: 1268, e2: 303, e3: 141
+e2_baseline_correct: 53, e2_DFG_correct: 174, e2_DFG_revise: 143
+==================================================
+==================================================
+Dataset: ATS
+Models: ['vgg16', 'resnet', 'squeezenet']
+bug_ids: [9, 0, 0]
+model_test_acc: [0.965, 0.9641, 0.9475]
+dfg_accuracy: 0.9708, baseline_accuracy: 0.9690, upper_limit: 0.9872
+absolute improvement rate: 0.0017, relative improvement rate: 0.0960
+absolute_wrong_1: 99, absolute_wrong_2: 106, absolute_wrong_3: 235
+absolute_wrong_12: 46, absolute_wrong_13: 97, absolute_wrong_23: 100
+all_wrong: 139
+e1: 440, e2: 243, e3: 139
+e2_baseline_correct: 45, e2_DFG_correct: 118, e2_DFG_revise: 105
+==================================================
+==================================================
+Dataset: ATS
+Models: ['vgg16', 'densenet', 'resnet']
+bug_ids: [10, 0, 0]
+model_test_acc: [0.972, 0.9759, 0.9641]
+dfg_accuracy: 0.9769, baseline_accuracy: 0.9784, upper_limit: 0.9895
+absolute improvement rate: -0.0015, relative improvement rate: -0.1322
+absolute_wrong_1: 111, absolute_wrong_2: 60, absolute_wrong_3: 170
+absolute_wrong_12: 30, absolute_wrong_13: 50, absolute_wrong_23: 57
+all_wrong: 114
+e1: 341, e2: 137, e3: 114
+e2_baseline_correct: 16, e2_DFG_correct: 51, e2_DFG_revise: 37
+==================================================

@@ -1,0 +1,160 @@
+==================================================
+Dataset: GTSRB
+Models: ['densenet', 'alexnet', 'squeezenet', 'vgg16', 'resnet']
+bug_ids: [0, 0, 0, 0, 0]
+model_test_acc: [0.8134, 0.9096, 0.899, 0.9665, 0.9817]
+dfg_accuracy: 0.9795, baseline_accuracy: 0.9717, upper_limit: 0.9971
+absolute improvement rate: 0.0078, relative improvement rate: 0.3084
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['densenet', 'squeezenet', 'alexnet', 'resnet', 'vgg16']
+bug_ids: [1, 1, 1, 1, 1]
+model_test_acc: [0.8803, 0.8704000000000001, 0.8726999999999999, 0.9712999999999999, 0.9767]
+dfg_accuracy: 0.9797, baseline_accuracy: 0.9715, upper_limit: 0.9937
+absolute improvement rate: 0.0082, relative improvement rate: 0.3679
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['vgg16', 'densenet', 'resnet', 'alexnet', 'squeezenet']
+bug_ids: [2, 2, 2, 2, 2]
+model_test_acc: [0.9692000000000001, 0.8495, 0.9551000000000001, 0.9012, 0.8919]
+dfg_accuracy: 0.9743, baseline_accuracy: 0.9715, upper_limit: 0.9937
+absolute improvement rate: 0.0029, relative improvement rate: 0.1286
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['alexnet', 'vgg16', 'resnet', 'squeezenet', 'densenet']
+bug_ids: [3, 3, 3, 3, 3]
+model_test_acc: [0.9111, 0.9825, 0.9618000000000001, 0.8970999999999999, 0.895]
+dfg_accuracy: 0.9756, baseline_accuracy: 0.9815, upper_limit: 0.9950
+absolute improvement rate: -0.0059, relative improvement rate: -0.4327
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['squeezenet', 'resnet', 'alexnet', 'densenet', 'vgg16']
+bug_ids: [4, 4, 4, 4, 4]
+model_test_acc: [0.9175, 0.9609000000000001, 0.9085, 0.8869, 0.9777]
+dfg_accuracy: 0.9772, baseline_accuracy: 0.9774, upper_limit: 0.9946
+absolute improvement rate: -0.0002, relative improvement rate: -0.0138
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['squeezenet', 'resnet', 'densenet', 'alexnet', 'vgg16']
+bug_ids: [5, 5, 5, 5, 5]
+model_test_acc: [0.7568, 0.9063, 0.7651, 0.6657, 0.9611]
+dfg_accuracy: 0.9561, baseline_accuracy: 0.9274, upper_limit: 0.9895
+absolute improvement rate: 0.0287, relative improvement rate: 0.4630
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['alexnet', 'resnet', 'vgg16', 'squeezenet', 'densenet']
+bug_ids: [6, 6, 6, 6, 6]
+model_test_acc: [0.8886, 0.9267, 0.977, 0.8795000000000001, 0.8906999999999999]
+dfg_accuracy: 0.9702, baseline_accuracy: 0.9679, upper_limit: 0.9909
+absolute improvement rate: 0.0023, relative improvement rate: 0.1000
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['densenet', 'squeezenet', 'vgg16', 'resnet', 'alexnet']
+bug_ids: [8, 8, 8, 8, 8]
+model_test_acc: [0.6995999999999999, 0.8873000000000001, 0.9148999999999999, 0.863, 0.9074]
+dfg_accuracy: 0.9447, baseline_accuracy: 0.9485, upper_limit: 0.9853
+absolute improvement rate: -0.0038, relative improvement rate: -0.1032
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['alexnet', 'densenet', 'vgg16', 'resnet', 'squeezenet']
+bug_ids: [9, 9, 9, 9, 9]
+model_test_acc: [0.8732, 0.8453, 0.9619, 0.9184, 0.8426]
+dfg_accuracy: 0.9565, baseline_accuracy: 0.9559, upper_limit: 0.9917
+absolute improvement rate: 0.0006, relative improvement rate: 0.0155
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['densenet', 'squeezenet', 'vgg16', 'resnet', 'alexnet']
+bug_ids: [10, 10, 10, 10, 10]
+model_test_acc: [0.639, 0.8532, 0.9378, 0.9648, 0.8484999999999999]
+dfg_accuracy: 0.9607, baseline_accuracy: 0.9447, upper_limit: 0.9878
+absolute improvement rate: 0.0161, relative improvement rate: 0.3725
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['alexnet', 'resnet', 'vgg16', 'densenet', 'squeezenet']
+bug_ids: [1, 0, 0, 0, 0]
+model_test_acc: [0.8726999999999999, 0.9817, 0.9665, 0.8134, 0.899]
+dfg_accuracy: 0.9789, baseline_accuracy: 0.9683, upper_limit: 0.9968
+absolute improvement rate: 0.0107, relative improvement rate: 0.3750
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['alexnet', 'densenet', 'vgg16', 'squeezenet', 'resnet']
+bug_ids: [2, 0, 0, 0, 0]
+model_test_acc: [0.9012, 0.8134, 0.9665, 0.899, 0.9817]
+dfg_accuracy: 0.9785, baseline_accuracy: 0.9709, upper_limit: 0.9964
+absolute improvement rate: 0.0077, relative improvement rate: 0.3012
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['alexnet', 'densenet', 'resnet', 'vgg16', 'squeezenet']
+bug_ids: [3, 0, 0, 0, 0]
+model_test_acc: [0.9111, 0.8134, 0.9817, 0.9665, 0.899]
+dfg_accuracy: 0.9799, baseline_accuracy: 0.9713, upper_limit: 0.9965
+absolute improvement rate: 0.0086, relative improvement rate: 0.3417
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['densenet', 'vgg16', 'resnet', 'squeezenet', 'alexnet']
+bug_ids: [4, 0, 0, 0, 0]
+model_test_acc: [0.8869, 0.9665, 0.9817, 0.899, 0.9096]
+dfg_accuracy: 0.9793, baseline_accuracy: 0.9757, upper_limit: 0.9971
+absolute improvement rate: 0.0036, relative improvement rate: 0.1697
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['squeezenet', 'vgg16', 'densenet', 'alexnet', 'resnet']
+bug_ids: [5, 0, 0, 0, 0]
+model_test_acc: [0.7568, 0.9665, 0.8134, 0.9096, 0.9817]
+dfg_accuracy: 0.9788, baseline_accuracy: 0.9689, upper_limit: 0.9970
+absolute improvement rate: 0.0099, relative improvement rate: 0.3521
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['resnet', 'vgg16', 'alexnet', 'squeezenet', 'densenet']
+bug_ids: [6, 0, 0, 0, 0]
+model_test_acc: [0.9267, 0.9665, 0.9096, 0.899, 0.8134]
+dfg_accuracy: 0.9633, baseline_accuracy: 0.9618, upper_limit: 0.9905
+absolute improvement rate: 0.0014, relative improvement rate: 0.0497
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['resnet', 'squeezenet', 'densenet', 'vgg16', 'alexnet']
+bug_ids: [7, 0, 0, 0, 0]
+model_test_acc: [0.9511, 0.899, 0.8134, 0.9665, 0.9096]
+dfg_accuracy: 0.9660, baseline_accuracy: 0.9652, upper_limit: 0.9937
+absolute improvement rate: 0.0008, relative improvement rate: 0.0278
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['squeezenet', 'resnet', 'densenet', 'alexnet', 'vgg16']
+bug_ids: [8, 0, 0, 0, 0]
+model_test_acc: [0.8873000000000001, 0.9817, 0.8134, 0.9096, 0.9665]
+dfg_accuracy: 0.9792, baseline_accuracy: 0.9748, upper_limit: 0.9973
+absolute improvement rate: 0.0044, relative improvement rate: 0.1937
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['resnet', 'squeezenet', 'alexnet', 'densenet', 'vgg16']
+bug_ids: [9, 0, 0, 0, 0]
+model_test_acc: [0.9184, 0.899, 0.9096, 0.8134, 0.9665]
+dfg_accuracy: 0.9651, baseline_accuracy: 0.9612, upper_limit: 0.9920
+absolute improvement rate: 0.0039, relative improvement rate: 0.1260
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['vgg16', 'resnet', 'squeezenet', 'densenet', 'alexnet']
+bug_ids: [10, 0, 0, 0, 0]
+model_test_acc: [0.9378, 0.9817, 0.899, 0.8134, 0.9096]
+dfg_accuracy: 0.9778, baseline_accuracy: 0.9671, upper_limit: 0.9970
+absolute improvement rate: 0.0107, relative improvement rate: 0.3571
+==================================================

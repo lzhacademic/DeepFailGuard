@@ -1,0 +1,315 @@
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'alexnet', 'squeezenet']
+bug_ids: [0, 0, 0]
+model_test_acc: [0.915, 0.925, 0.85]
+dfg_accuracy: 0.9225, baseline_accuracy: 0.9200, upper_limit: 0.9650
+absolute improvement rate: 0.0025, relative improvement rate: 0.0556
+absolute_wrong_1: 8, absolute_wrong_2: 7, absolute_wrong_3: 31
+absolute_wrong_12: 3, absolute_wrong_13: 9, absolute_wrong_23: 6
+all_correct: 322, all_wrong: 14
+e1: 46, e2: 18, e3: 14
+e1_baseline_correct: 46, e1_DFG_correct: 39, e1_DFG_revise: 0
+e2_baseline_correct: 0, e2_DFG_correct: 8, e2_DFG_revise: 8
+lower_limit: 0.805
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'squeezenet', 'densenet']
+bug_ids: [1, 1, 1]
+model_test_acc: [0.8725, 0.885, 0.94]
+dfg_accuracy: 0.9400, baseline_accuracy: 0.9375, upper_limit: 0.9725
+absolute improvement rate: 0.0025, relative improvement rate: 0.0714
+absolute_wrong_1: 29, absolute_wrong_2: 25, absolute_wrong_3: 6
+absolute_wrong_12: 7, absolute_wrong_13: 4, absolute_wrong_23: 3
+all_correct: 315, all_wrong: 11
+e1: 60, e2: 14, e3: 11
+e1_baseline_correct: 60, e1_DFG_correct: 56, e1_DFG_revise: 0
+e2_baseline_correct: 0, e2_DFG_correct: 5, e2_DFG_revise: 5
+lower_limit: 0.7875
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['alexnet', 'resnet', 'vgg16']
+bug_ids: [2, 2, 2]
+model_test_acc: [0.8675, 0.885, 0.8675]
+dfg_accuracy: 0.9100, baseline_accuracy: 0.8950, upper_limit: 0.9600
+absolute improvement rate: 0.0150, relative improvement rate: 0.2308
+absolute_wrong_1: 19, absolute_wrong_2: 11, absolute_wrong_3: 21
+absolute_wrong_12: 10, absolute_wrong_13: 8, absolute_wrong_23: 8
+all_correct: 307, all_wrong: 16
+e1: 51, e2: 26, e3: 16
+e1_baseline_correct: 51, e1_DFG_correct: 46, e1_DFG_revise: 0
+e2_baseline_correct: 0, e2_DFG_correct: 11, e2_DFG_revise: 11
+lower_limit: 0.7675
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'squeezenet', 'alexnet']
+bug_ids: [3, 3, 3]
+model_test_acc: [0.92, 0.855, 0.8775]
+dfg_accuracy: 0.9425, baseline_accuracy: 0.9225, upper_limit: 0.9725
+absolute improvement rate: 0.0200, relative improvement rate: 0.4000
+absolute_wrong_1: 12, absolute_wrong_2: 30, absolute_wrong_3: 22
+absolute_wrong_12: 5, absolute_wrong_13: 4, absolute_wrong_23: 12
+all_correct: 304, all_wrong: 11
+e1: 64, e2: 21, e3: 11
+e1_baseline_correct: 64, e1_DFG_correct: 61, e1_DFG_revise: 0
+e2_baseline_correct: 1, e2_DFG_correct: 12, e2_DFG_revise: 12
+lower_limit: 0.76
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['densenet', 'alexnet', 'vgg16']
+bug_ids: [4, 4, 4]
+model_test_acc: [0.925, 0.9525, 0.9075]
+dfg_accuracy: 0.9575, baseline_accuracy: 0.9500, upper_limit: 0.9750
+absolute improvement rate: 0.0075, relative improvement rate: 0.3000
+absolute_wrong_1: 13, absolute_wrong_2: 4, absolute_wrong_3: 19
+absolute_wrong_12: 2, absolute_wrong_13: 5, absolute_wrong_23: 3
+all_correct: 344, all_wrong: 10
+e1: 36, e2: 10, e3: 10
+e1_baseline_correct: 36, e1_DFG_correct: 34, e1_DFG_revise: 0
+e2_baseline_correct: 0, e2_DFG_correct: 5, e2_DFG_revise: 5
+lower_limit: 0.86
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['densenet', 'vgg16', 'alexnet']
+bug_ids: [5, 5, 5]
+model_test_acc: [0.7925, 0.87, 0.9125]
+dfg_accuracy: 0.9000, baseline_accuracy: 0.8950, upper_limit: 0.9500
+absolute improvement rate: 0.0050, relative improvement rate: 0.0909
+absolute_wrong_1: 45, absolute_wrong_2: 11, absolute_wrong_3: 10
+absolute_wrong_12: 17, absolute_wrong_13: 1, absolute_wrong_23: 4
+all_correct: 292, all_wrong: 20
+e1: 66, e2: 22, e3: 20
+e1_baseline_correct: 66, e1_DFG_correct: 56, e1_DFG_revise: 0
+e2_baseline_correct: 0, e2_DFG_correct: 12, e2_DFG_revise: 12
+lower_limit: 0.73
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['squeezenet', 'alexnet', 'resnet']
+bug_ids: [6, 6, 6]
+model_test_acc: [0.845, 0.9325, 0.9775]
+dfg_accuracy: 0.9375, baseline_accuracy: 0.9275, upper_limit: 0.9750
+absolute improvement rate: 0.0100, relative improvement rate: 0.2105
+absolute_wrong_1: 38, absolute_wrong_2: 8, absolute_wrong_3: 24
+absolute_wrong_12: 4, absolute_wrong_13: 10, absolute_wrong_23: 5
+all_correct: 301, all_wrong: 10
+e1: 70, e2: 19, e3: 10
+e1_baseline_correct: 70, e1_DFG_correct: 66, e1_DFG_revise: 0
+e2_baseline_correct: 0, e2_DFG_correct: 8, e2_DFG_revise: 8
+lower_limit: 0.7525
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'alexnet', 'squeezenet']
+bug_ids: [7, 7, 7]
+model_test_acc: [0.9275, 0.8775, 0.87]
+dfg_accuracy: 0.9350, baseline_accuracy: 0.9225, upper_limit: 0.9625
+absolute improvement rate: 0.0125, relative improvement rate: 0.3125
+absolute_wrong_1: 8, absolute_wrong_2: 21, absolute_wrong_3: 24
+absolute_wrong_12: 3, absolute_wrong_13: 3, absolute_wrong_23: 10
+all_correct: 316, all_wrong: 15
+e1: 53, e2: 16, e3: 15
+e1_baseline_correct: 53, e1_DFG_correct: 49, e1_DFG_revise: 0
+e2_baseline_correct: 0, e2_DFG_correct: 9, e2_DFG_revise: 9
+lower_limit: 0.79
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'resnet', 'alexnet']
+bug_ids: [8, 8, 8]
+model_test_acc: [0.885, 0.6875, 0.8725]
+dfg_accuracy: 0.9250, baseline_accuracy: 0.9050, upper_limit: 0.9750
+absolute improvement rate: 0.0200, relative improvement rate: 0.2857
+absolute_wrong_1: 17, absolute_wrong_2: 93, absolute_wrong_3: 24
+absolute_wrong_12: 12, absolute_wrong_13: 7, absolute_wrong_23: 10
+all_correct: 227, all_wrong: 10
+e1: 134, e2: 29, e3: 10
+e1_baseline_correct: 134, e1_DFG_correct: 124, e1_DFG_revise: 0
+e2_baseline_correct: 1, e2_DFG_correct: 19, e2_DFG_revise: 18
+lower_limit: 0.5675
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'alexnet', 'densenet']
+bug_ids: [9, 9, 9]
+model_test_acc: [0.86, 0.865, 0.885]
+dfg_accuracy: 0.9200, baseline_accuracy: 0.9100, upper_limit: 0.9675
+absolute improvement rate: 0.0100, relative improvement rate: 0.1739
+absolute_wrong_1: 24, absolute_wrong_2: 23, absolute_wrong_3: 22
+absolute_wrong_12: 13, absolute_wrong_13: 6, absolute_wrong_23: 5
+all_correct: 294, all_wrong: 13
+e1: 69, e2: 24, e3: 13
+e1_baseline_correct: 69, e1_DFG_correct: 67, e1_DFG_revise: 0
+e2_baseline_correct: 1, e2_DFG_correct: 7, e2_DFG_revise: 7
+lower_limit: 0.735
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['squeezenet', 'densenet', 'alexnet']
+bug_ids: [10, 10, 10]
+model_test_acc: [0.7975, 0.8525, 0.885]
+dfg_accuracy: 0.9000, baseline_accuracy: 0.8875, upper_limit: 0.9800
+absolute improvement rate: 0.0125, relative improvement rate: 0.1351
+absolute_wrong_1: 40, absolute_wrong_2: 23, absolute_wrong_3: 20
+absolute_wrong_12: 19, absolute_wrong_13: 18, absolute_wrong_23: 2
+all_correct: 270, all_wrong: 8
+e1: 83, e2: 39, e3: 8
+e1_baseline_correct: 83, e1_DFG_correct: 69, e1_DFG_revise: 0
+e2_baseline_correct: 2, e2_DFG_correct: 21, e2_DFG_revise: 20
+lower_limit: 0.675
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'densenet', 'alexnet']
+bug_ids: [1, 0, 0]
+model_test_acc: [0.8725, 0.9475, 0.925]
+dfg_accuracy: 0.9575, baseline_accuracy: 0.9325, upper_limit: 0.9875
+absolute improvement rate: 0.0250, relative improvement rate: 0.4545
+absolute_wrong_1: 27, absolute_wrong_2: 9, absolute_wrong_3: 5
+absolute_wrong_12: 3, absolute_wrong_13: 16, absolute_wrong_23: 4
+all_correct: 331, all_wrong: 5
+e1: 41, e2: 23, e3: 5
+e1_baseline_correct: 41, e1_DFG_correct: 37, e1_DFG_revise: 0
+e2_baseline_correct: 1, e2_DFG_correct: 15, e2_DFG_revise: 15
+lower_limit: 0.8275
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['resnet', 'densenet', 'vgg16']
+bug_ids: [2, 0, 0]
+model_test_acc: [0.885, 0.9475, 0.915]
+dfg_accuracy: 0.9525, baseline_accuracy: 0.9450, upper_limit: 0.9825
+absolute improvement rate: 0.0075, relative improvement rate: 0.2000
+absolute_wrong_1: 24, absolute_wrong_2: 9, absolute_wrong_3: 14
+absolute_wrong_12: 3, absolute_wrong_13: 11, absolute_wrong_23: 2
+all_correct: 330, all_wrong: 7
+e1: 47, e2: 16, e3: 7
+e1_baseline_correct: 47, e1_DFG_correct: 44, e1_DFG_revise: 0
+e2_baseline_correct: 1, e2_DFG_correct: 7, e2_DFG_revise: 6
+lower_limit: 0.825
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['alexnet', 'densenet', 'squeezenet']
+bug_ids: [3, 0, 0]
+model_test_acc: [0.8775, 0.9475, 0.85]
+dfg_accuracy: 0.9375, baseline_accuracy: 0.9300, upper_limit: 0.9800
+absolute improvement rate: 0.0075, relative improvement rate: 0.1500
+absolute_wrong_1: 24, absolute_wrong_2: 9, absolute_wrong_3: 33
+absolute_wrong_12: 1, absolute_wrong_13: 16, absolute_wrong_23: 3
+all_correct: 306, all_wrong: 8
+e1: 66, e2: 20, e3: 8
+e1_baseline_correct: 66, e1_DFG_correct: 58, e1_DFG_revise: 0
+e2_baseline_correct: 0, e2_DFG_correct: 11, e2_DFG_revise: 11
+lower_limit: 0.765
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['squeezenet', 'densenet', 'resnet']
+bug_ids: [4, 0, 0]
+model_test_acc: [0.8925, 0.9475, 0.88]
+dfg_accuracy: 0.9450, baseline_accuracy: 0.9325, upper_limit: 0.9850
+absolute improvement rate: 0.0125, relative improvement rate: 0.2381
+absolute_wrong_1: 20, absolute_wrong_2: 7, absolute_wrong_3: 23
+absolute_wrong_12: 3, absolute_wrong_13: 14, absolute_wrong_23: 5
+all_correct: 322, all_wrong: 6
+e1: 50, e2: 22, e3: 6
+e1_baseline_correct: 50, e1_DFG_correct: 47, e1_DFG_revise: 0
+e2_baseline_correct: 1, e2_DFG_correct: 9, e2_DFG_revise: 8
+lower_limit: 0.805
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['alexnet', 'vgg16', 'resnet']
+bug_ids: [5, 0, 0]
+model_test_acc: [0.9125, 0.915, 0.88]
+dfg_accuracy: 0.9300, baseline_accuracy: 0.9225, upper_limit: 0.9700
+absolute improvement rate: 0.0075, relative improvement rate: 0.1579
+absolute_wrong_1: 10, absolute_wrong_2: 11, absolute_wrong_3: 22
+absolute_wrong_12: 5, absolute_wrong_13: 8, absolute_wrong_23: 6
+all_correct: 326, all_wrong: 12
+e1: 43, e2: 19, e3: 12
+e1_baseline_correct: 43, e1_DFG_correct: 36, e1_DFG_revise: 0
+e2_baseline_correct: 0, e2_DFG_correct: 10, e2_DFG_revise: 10
+lower_limit: 0.815
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['squeezenet', 'alexnet', 'densenet']
+bug_ids: [6, 0, 0]
+model_test_acc: [0.845, 0.925, 0.9475]
+dfg_accuracy: 0.9550, baseline_accuracy: 0.9350, upper_limit: 0.9825
+absolute improvement rate: 0.0200, relative improvement rate: 0.4211
+absolute_wrong_1: 38, absolute_wrong_2: 9, absolute_wrong_3: 7
+absolute_wrong_12: 12, absolute_wrong_13: 5, absolute_wrong_23: 2
+all_correct: 320, all_wrong: 7
+e1: 54, e2: 19, e3: 7
+e1_baseline_correct: 54, e1_DFG_correct: 51, e1_DFG_revise: 0
+e2_baseline_correct: 0, e2_DFG_correct: 11, e2_DFG_revise: 11
+lower_limit: 0.8
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['squeezenet', 'densenet', 'vgg16']
+bug_ids: [7, 0, 0]
+model_test_acc: [0.87, 0.9475, 0.915]
+dfg_accuracy: 0.9500, baseline_accuracy: 0.9425, upper_limit: 0.9850
+absolute improvement rate: 0.0075, relative improvement rate: 0.1765
+absolute_wrong_1: 31, absolute_wrong_2: 10, absolute_wrong_3: 12
+absolute_wrong_12: 2, absolute_wrong_13: 13, absolute_wrong_23: 3
+all_correct: 323, all_wrong: 6
+e1: 53, e2: 18, e3: 6
+e1_baseline_correct: 53, e1_DFG_correct: 47, e1_DFG_revise: 0
+e2_baseline_correct: 1, e2_DFG_correct: 10, e2_DFG_revise: 9
+lower_limit: 0.8075
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['resnet', 'alexnet', 'squeezenet']
+bug_ids: [8, 0, 0]
+model_test_acc: [0.6875, 0.925, 0.85]
+dfg_accuracy: 0.9000, baseline_accuracy: 0.9100, upper_limit: 0.9750
+absolute improvement rate: -0.0100, relative improvement rate: -0.1538
+absolute_wrong_1: 99, absolute_wrong_2: 6, absolute_wrong_3: 28
+absolute_wrong_12: 4, absolute_wrong_13: 12, absolute_wrong_23: 10
+all_correct: 231, all_wrong: 10
+e1: 133, e2: 26, e3: 10
+e1_baseline_correct: 133, e1_DFG_correct: 119, e1_DFG_revise: 0
+e2_baseline_correct: 0, e2_DFG_correct: 10, e2_DFG_revise: 10
+lower_limit: 0.5775
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'squeezenet', 'alexnet']
+bug_ids: [9, 0, 0]
+model_test_acc: [0.86, 0.85, 0.925]
+dfg_accuracy: 0.9075, baseline_accuracy: 0.9225, upper_limit: 0.9675
+absolute improvement rate: -0.0150, relative improvement rate: -0.3333
+absolute_wrong_1: 31, absolute_wrong_2: 32, absolute_wrong_3: 6
+absolute_wrong_12: 8, absolute_wrong_13: 4, absolute_wrong_23: 7
+all_correct: 299, all_wrong: 13
+e1: 69, e2: 19, e3: 13
+e1_baseline_correct: 69, e1_DFG_correct: 58, e1_DFG_revise: 0
+e2_baseline_correct: 1, e2_DFG_correct: 6, e2_DFG_revise: 6
+lower_limit: 0.7475
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['densenet', 'squeezenet', 'resnet']
+bug_ids: [10, 0, 0]
+model_test_acc: [0.8525, 0.85, 0.88]
+dfg_accuracy: 0.9300, baseline_accuracy: 0.9275, upper_limit: 0.9850
+absolute improvement rate: 0.0025, relative improvement rate: 0.0435
+absolute_wrong_1: 36, absolute_wrong_2: 34, absolute_wrong_3: 20
+absolute_wrong_12: 4, absolute_wrong_13: 6, absolute_wrong_23: 16
+all_correct: 278, all_wrong: 6
+e1: 90, e2: 26, e3: 6
+e1_baseline_correct: 90, e1_DFG_correct: 81, e1_DFG_revise: 0
+e2_baseline_correct: 3, e2_DFG_correct: 13, e2_DFG_revise: 13
+lower_limit: 0.695
+==================================================

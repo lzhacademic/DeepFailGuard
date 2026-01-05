@@ -1,0 +1,168 @@
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'squeezenet']
+bug_ids: [0, 0]
+model_test_acc: [0.4524, 0.5125]
+dfg_accuracy: 0.5196, baseline_accuracy: 0.4814, upper_limit: 0.5938
+absolute improvement rate: 0.0381, relative improvement rate: 0.3393
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['densenet', 'squeezenet']
+bug_ids: [1, 1]
+model_test_acc: [0.44329999999999997, 0.4594]
+dfg_accuracy: 0.4875, baseline_accuracy: 0.4423, upper_limit: 0.5737
+absolute improvement rate: 0.0451, relative improvement rate: 0.3435
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['squeezenet', 'resnet']
+bug_ids: [2, 2]
+model_test_acc: [0.43329999999999996, 0.348]
+dfg_accuracy: 0.3952, baseline_accuracy: 0.4022, upper_limit: 0.5035
+absolute improvement rate: -0.0070, relative improvement rate: -0.0693
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'densenet']
+bug_ids: [3, 3]
+model_test_acc: [0.3119, 0.4443]
+dfg_accuracy: 0.4483, baseline_accuracy: 0.3751, upper_limit: 0.4965
+absolute improvement rate: 0.0732, relative improvement rate: 0.6033
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'squeezenet']
+bug_ids: [4, 4]
+model_test_acc: [0.2518, 0.45740000000000003]
+dfg_accuracy: 0.4463, baseline_accuracy: 0.3531, upper_limit: 0.4915
+absolute improvement rate: 0.0933, relative improvement rate: 0.6739
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['resnet', 'vgg16']
+bug_ids: [5, 5]
+model_test_acc: [0.2297, 0.2688]
+dfg_accuracy: 0.2698, baseline_accuracy: 0.2096, upper_limit: 0.3751
+absolute improvement rate: 0.0602, relative improvement rate: 0.3636
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['densenet', 'squeezenet']
+bug_ids: [6, 6]
+model_test_acc: [0.43229999999999996, 0.44329999999999997]
+dfg_accuracy: 0.4674, baseline_accuracy: 0.4463, upper_limit: 0.5517
+absolute improvement rate: 0.0211, relative improvement rate: 0.2000
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['resnet', 'squeezenet']
+bug_ids: [7, 7]
+model_test_acc: [0.32899999999999996, 0.2859]
+dfg_accuracy: 0.3561, baseline_accuracy: 0.3049, upper_limit: 0.4483
+absolute improvement rate: 0.0512, relative improvement rate: 0.3566
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['resnet', 'alexnet']
+bug_ids: [8, 8]
+model_test_acc: [0.31489999999999996, 0.32]
+dfg_accuracy: 0.3511, baseline_accuracy: 0.3039, upper_limit: 0.4343
+absolute improvement rate: 0.0471, relative improvement rate: 0.3615
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['resnet', 'squeezenet']
+bug_ids: [9, 9]
+model_test_acc: [0.2217, 0.45439999999999997]
+dfg_accuracy: 0.3937, baseline_accuracy: 0.3531, upper_limit: 0.4925
+absolute improvement rate: 0.0406, relative improvement rate: 0.2914
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['squeezenet', 'resnet']
+bug_ids: [10, 10]
+model_test_acc: [0.499, 0.3992]
+dfg_accuracy: 0.4945, baseline_accuracy: 0.4488, upper_limit: 0.5687
+absolute improvement rate: 0.0456, relative improvement rate: 0.3808
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'squeezenet']
+bug_ids: [1, 0]
+model_test_acc: [0.3761, 0.5125]
+dfg_accuracy: 0.5055, baseline_accuracy: 0.4423, upper_limit: 0.5567
+absolute improvement rate: 0.0632, relative improvement rate: 0.5526
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['squeezenet', 'resnet']
+bug_ids: [2, 0]
+model_test_acc: [0.43329999999999996, 0.4052]
+dfg_accuracy: 0.4223, baseline_accuracy: 0.4213, upper_limit: 0.5266
+absolute improvement rate: 0.0010, relative improvement rate: 0.0095
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'vgg16']
+bug_ids: [3, 0]
+model_test_acc: [0.3119, 0.5196000000000001]
+dfg_accuracy: 0.5206, baseline_accuracy: 0.4142, upper_limit: 0.5637
+absolute improvement rate: 0.1063, relative improvement rate: 0.7114
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'vgg16']
+bug_ids: [4, 0]
+model_test_acc: [0.2518, 0.5196000000000001]
+dfg_accuracy: 0.5196, baseline_accuracy: 0.3872, upper_limit: 0.5547
+absolute improvement rate: 0.1324, relative improvement rate: 0.7904
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['resnet', 'squeezenet']
+bug_ids: [5, 0]
+model_test_acc: [0.2297, 0.5125]
+dfg_accuracy: 0.4995, baseline_accuracy: 0.3691, upper_limit: 0.5276
+absolute improvement rate: 0.1304, relative improvement rate: 0.8228
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['squeezenet', 'alexnet']
+bug_ids: [6, 0]
+model_test_acc: [0.44329999999999997, 0.4524]
+dfg_accuracy: 0.4835, baseline_accuracy: 0.4724, upper_limit: 0.5496
+absolute improvement rate: 0.0110, relative improvement rate: 0.1429
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['densenet', 'resnet']
+bug_ids: [7, 0]
+model_test_acc: [0.40020000000000006, 0.4052]
+dfg_accuracy: 0.4072, baseline_accuracy: 0.4092, upper_limit: 0.4835
+absolute improvement rate: -0.0020, relative improvement rate: -0.0270
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'squeezenet']
+bug_ids: [8, 0]
+model_test_acc: [0.32, 0.5125]
+dfg_accuracy: 0.5105, baseline_accuracy: 0.3972, upper_limit: 0.5496
+absolute improvement rate: 0.1133, relative improvement rate: 0.7434
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['squeezenet', 'densenet']
+bug_ids: [9, 0]
+model_test_acc: [0.45439999999999997, 0.45840000000000003]
+dfg_accuracy: 0.4784, baseline_accuracy: 0.4524, upper_limit: 0.5737
+absolute improvement rate: 0.0261, relative improvement rate: 0.2149
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['densenet', 'resnet']
+bug_ids: [10, 0]
+model_test_acc: [0.42979999999999996, 0.4052]
+dfg_accuracy: 0.4273, baseline_accuracy: 0.4298, upper_limit: 0.5130
+absolute improvement rate: -0.0025, relative improvement rate: -0.0301
+==================================================

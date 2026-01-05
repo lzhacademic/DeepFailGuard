@@ -1,0 +1,273 @@
+==================================================
+Dataset: TSCD
+Models: ['resnet', 'vgg16', 'squeezenet']
+bug_ids: [0, 0, 0]
+model_test_acc: [0.9987999999999999, 0.9984999999999999, 0.9995]
+dfg_accuracy: 0.9997, baseline_accuracy: 0.9999, upper_limit: 1.0000
+absolute improvement rate: -0.0003, relative improvement rate: -4.0000
+absolute_wrong_1: 14, absolute_wrong_2: 18, absolute_wrong_3: 8
+absolute_wrong_12: 4, absolute_wrong_13: 0, absolute_wrong_23: 0
+all_wrong: 0
+e1: 40, e2: 4, e3: 0
+e2_baseline_correct: 3, e2_DFG_correct: 4, e2_DFG_revise: 1
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['densenet', 'squeezenet', 'vgg16']
+bug_ids: [1, 1, 1]
+model_test_acc: [0.9991, 0.9584, 0.9981]
+dfg_accuracy: 0.9966, baseline_accuracy: 0.9993, upper_limit: 0.9999
+absolute improvement rate: -0.0027, relative improvement rate: -5.0000
+absolute_wrong_1: 6, absolute_wrong_2: 595, absolute_wrong_3: 16
+absolute_wrong_12: 3, absolute_wrong_13: 2, absolute_wrong_23: 8
+all_wrong: 2
+e1: 617, e2: 13, e3: 2
+e2_baseline_correct: 5, e2_DFG_correct: 9, e2_DFG_revise: 7
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['alexnet', 'squeezenet', 'vgg16']
+bug_ids: [2, 2, 2]
+model_test_acc: [0.9925, 0.9098, 0.9992]
+dfg_accuracy: 0.9951, baseline_accuracy: 0.9960, upper_limit: 0.9997
+absolute improvement rate: -0.0008, relative improvement rate: -0.2222
+absolute_wrong_1: 41, absolute_wrong_2: 1248, absolute_wrong_3: 0
+absolute_wrong_12: 64, absolute_wrong_13: 0, absolute_wrong_23: 6
+all_wrong: 5
+e1: 1289, e2: 70, e3: 5
+e2_baseline_correct: 16, e2_DFG_correct: 57, e2_DFG_revise: 44
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['squeezenet', 'densenet', 'alexnet']
+bug_ids: [3, 3, 3]
+model_test_acc: [0.9809, 0.9956999999999999, 0.9926]
+dfg_accuracy: 0.9964, baseline_accuracy: 0.9974, upper_limit: 0.9998
+absolute improvement rate: -0.0010, relative improvement rate: -0.4286
+absolute_wrong_1: 233, absolute_wrong_2: 51, absolute_wrong_3: 66
+absolute_wrong_12: 7, absolute_wrong_13: 37, absolute_wrong_23: 2
+all_wrong: 3
+e1: 350, e2: 46, e3: 3
+e2_baseline_correct: 11, e2_DFG_correct: 25, e2_DFG_revise: 16
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['densenet', 'alexnet', 'vgg16']
+bug_ids: [4, 4, 4]
+model_test_acc: [0.9987, 0.9917, 0.9972]
+dfg_accuracy: 0.9991, baseline_accuracy: 0.9993, upper_limit: 0.9999
+absolute improvement rate: -0.0002, relative improvement rate: -0.3333
+absolute_wrong_1: 14, absolute_wrong_2: 113, absolute_wrong_3: 32
+absolute_wrong_12: 2, absolute_wrong_13: 2, absolute_wrong_23: 6
+all_wrong: 1
+e1: 159, e2: 10, e3: 1
+e2_baseline_correct: 1, e2_DFG_correct: 5, e2_DFG_revise: 4
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['vgg16', 'squeezenet', 'densenet']
+bug_ids: [5, 5, 5]
+model_test_acc: [0.9914000000000001, 0.7515999999999999, 0.9884999999999999]
+dfg_accuracy: 0.9820, baseline_accuracy: 0.9891, upper_limit: 0.9990
+absolute improvement rate: -0.0072, relative improvement rate: -0.7292
+absolute_wrong_1: 35, absolute_wrong_2: 3446, absolute_wrong_3: 58
+absolute_wrong_12: 74, absolute_wrong_13: 2, absolute_wrong_23: 95
+all_wrong: 15
+e1: 3539, e2: 171, e3: 15
+e2_baseline_correct: 27, e2_DFG_correct: 105, e2_DFG_revise: 86
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['alexnet', 'resnet', 'vgg16']
+bug_ids: [6, 6, 6]
+model_test_acc: [0.9928, 0.9928, 0.998]
+dfg_accuracy: 0.9988, baseline_accuracy: 0.9989, upper_limit: 0.9998
+absolute improvement rate: -0.0001, relative improvement rate: -0.1538
+absolute_wrong_1: 89, absolute_wrong_2: 92, absolute_wrong_3: 21
+absolute_wrong_12: 10, absolute_wrong_13: 4, absolute_wrong_23: 1
+all_wrong: 3
+e1: 202, e2: 15, e3: 3
+e2_baseline_correct: 2, e2_DFG_correct: 7, e2_DFG_revise: 6
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['alexnet', 'squeezenet', 'densenet']
+bug_ids: [7, 7, 7]
+model_test_acc: [0.9098, 0.9798, 0.9987999999999999]
+dfg_accuracy: 0.9915, baseline_accuracy: 0.9918, upper_limit: 0.9992
+absolute improvement rate: -0.0003, relative improvement rate: -0.0459
+absolute_wrong_1: 1170, absolute_wrong_2: 146, absolute_wrong_3: 2
+absolute_wrong_12: 136, absolute_wrong_13: 3, absolute_wrong_23: 2
+all_wrong: 11
+e1: 1318, e2: 141, e3: 11
+e2_baseline_correct: 32, e2_DFG_correct: 87, e2_DFG_revise: 71
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['alexnet', 'densenet', 'resnet']
+bug_ids: [8, 8, 8]
+model_test_acc: [0.9891, 0.9414, 0.9462]
+dfg_accuracy: 0.9771, baseline_accuracy: 0.9733, upper_limit: 0.9979
+absolute improvement rate: 0.0038, relative improvement rate: 0.1551
+absolute_wrong_1: 89, absolute_wrong_2: 469, absolute_wrong_3: 393
+absolute_wrong_12: 17, absolute_wrong_13: 23, absolute_wrong_23: 341
+all_wrong: 30
+e1: 951, e2: 381, e3: 30
+e2_baseline_correct: 20, e2_DFG_correct: 148, e2_DFG_revise: 139
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['vgg16', 'resnet', 'densenet']
+bug_ids: [9, 9, 9]
+model_test_acc: [0.9931, 0.9912000000000001, 0.9915999999999999]
+dfg_accuracy: 0.9977, baseline_accuracy: 0.9975, upper_limit: 0.9996
+absolute improvement rate: 0.0002, relative improvement rate: 0.1000
+absolute_wrong_1: 76, absolute_wrong_2: 86, absolute_wrong_3: 92
+absolute_wrong_12: 15, absolute_wrong_13: 4, absolute_wrong_23: 21
+all_wrong: 6
+e1: 254, e2: 40, e3: 6
+e2_baseline_correct: 10, e2_DFG_correct: 25, e2_DFG_revise: 18
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['vgg16', 'squeezenet', 'alexnet']
+bug_ids: [10, 10, 10]
+model_test_acc: [0.9838, 0.9862000000000001, 0.9254000000000001]
+dfg_accuracy: 0.9839, baseline_accuracy: 0.9860, upper_limit: 0.9953
+absolute improvement rate: -0.0021, relative improvement rate: -0.2279
+absolute_wrong_1: 56, absolute_wrong_2: 42, absolute_wrong_3: 891
+absolute_wrong_12: 36, absolute_wrong_13: 76, absolute_wrong_23: 55
+all_wrong: 69
+e1: 989, e2: 167, e3: 69
+e2_baseline_correct: 31, e2_DFG_correct: 92, e2_DFG_revise: 73
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['resnet', 'alexnet', 'vgg16']
+bug_ids: [1, 0, 0]
+model_test_acc: [0.9964, 0.9858, 0.9984999999999999]
+dfg_accuracy: 0.9984, baseline_accuracy: 0.9988, upper_limit: 1.0000
+absolute improvement rate: -0.0004, relative improvement rate: -0.3529
+absolute_wrong_1: 37, absolute_wrong_2: 188, absolute_wrong_3: 12
+absolute_wrong_12: 13, absolute_wrong_13: 3, absolute_wrong_23: 7
+all_wrong: 0
+e1: 237, e2: 23, e3: 0
+e2_baseline_correct: 6, e2_DFG_correct: 15, e2_DFG_revise: 10
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['squeezenet', 'vgg16', 'resnet']
+bug_ids: [2, 0, 0]
+model_test_acc: [0.9098, 0.9984999999999999, 0.9987999999999999]
+dfg_accuracy: 0.9938, baseline_accuracy: 0.9994, upper_limit: 0.9999
+absolute improvement rate: -0.0056, relative improvement rate: -11.7143
+absolute_wrong_1: 1303, absolute_wrong_2: 5, absolute_wrong_3: 9
+absolute_wrong_12: 13, absolute_wrong_13: 5, absolute_wrong_23: 2
+all_wrong: 2
+e1: 1317, e2: 20, e3: 2
+e2_baseline_correct: 13, e2_DFG_correct: 11, e2_DFG_revise: 2
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['vgg16', 'alexnet', 'densenet']
+bug_ids: [3, 0, 0]
+model_test_acc: [0.9995999999999999, 0.9858, 0.9969]
+dfg_accuracy: 0.9984, baseline_accuracy: 0.9993, upper_limit: 0.9999
+absolute improvement rate: -0.0010, relative improvement rate: -1.5556
+absolute_wrong_1: 2, absolute_wrong_2: 195, absolute_wrong_3: 36
+absolute_wrong_12: 3, absolute_wrong_13: 0, absolute_wrong_23: 9
+all_wrong: 1
+e1: 233, e2: 12, e3: 1
+e2_baseline_correct: 3, e2_DFG_correct: 7, e2_DFG_revise: 6
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['squeezenet', 'vgg16', 'densenet']
+bug_ids: [4, 0, 0]
+model_test_acc: [0.9763, 0.9984999999999999, 0.9969]
+dfg_accuracy: 0.9982, baseline_accuracy: 0.9988, upper_limit: 0.9999
+absolute improvement rate: -0.0006, relative improvement rate: -0.5625
+absolute_wrong_1: 326, absolute_wrong_2: 11, absolute_wrong_3: 31
+absolute_wrong_12: 7, absolute_wrong_13: 11, absolute_wrong_23: 2
+all_wrong: 2
+e1: 368, e2: 20, e3: 2
+e2_baseline_correct: 4, e2_DFG_correct: 15, e2_DFG_revise: 12
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['vgg16', 'squeezenet', 'alexnet']
+bug_ids: [5, 0, 0]
+model_test_acc: [0.9914000000000001, 0.9995, 0.9858]
+dfg_accuracy: 0.9972, baseline_accuracy: 0.9983, upper_limit: 1.0000
+absolute improvement rate: -0.0011, relative improvement rate: -0.6400
+absolute_wrong_1: 98, absolute_wrong_2: 3, absolute_wrong_3: 185
+absolute_wrong_12: 5, absolute_wrong_13: 23, absolute_wrong_23: 0
+all_wrong: 0
+e1: 286, e2: 28, e3: 0
+e2_baseline_correct: 3, e2_DFG_correct: 12, e2_DFG_revise: 11
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['squeezenet', 'vgg16', 'densenet']
+bug_ids: [6, 0, 0]
+model_test_acc: [0.9327, 0.9984999999999999, 0.9969]
+dfg_accuracy: 0.9960, baseline_accuracy: 0.9981, upper_limit: 0.9997
+absolute improvement rate: -0.0021, relative improvement rate: -1.2500
+absolute_wrong_1: 949, absolute_wrong_2: 10, absolute_wrong_3: 19
+absolute_wrong_12: 8, absolute_wrong_13: 23, absolute_wrong_23: 0
+all_wrong: 4
+e1: 978, e2: 31, e3: 4
+e2_baseline_correct: 7, e2_DFG_correct: 25, e2_DFG_revise: 18
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['squeezenet', 'resnet', 'vgg16']
+bug_ids: [7, 0, 0]
+model_test_acc: [0.9798, 0.9987999999999999, 0.9984999999999999]
+dfg_accuracy: 0.9977, baseline_accuracy: 0.9992, upper_limit: 0.9999
+absolute improvement rate: -0.0015, relative improvement rate: -2.2000
+absolute_wrong_1: 280, absolute_wrong_2: 9, absolute_wrong_3: 10
+absolute_wrong_12: 5, absolute_wrong_13: 8, absolute_wrong_23: 2
+all_wrong: 2
+e1: 299, e2: 15, e3: 2
+e2_baseline_correct: 5, e2_DFG_correct: 11, e2_DFG_revise: 8
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['densenet', 'vgg16', 'alexnet']
+bug_ids: [8, 0, 0]
+model_test_acc: [0.9414, 0.9984999999999999, 0.9858]
+dfg_accuracy: 0.9883, baseline_accuracy: 0.9972, upper_limit: 0.9999
+absolute improvement rate: -0.0089, relative improvement rate: -3.3333
+absolute_wrong_1: 814, absolute_wrong_2: 13, absolute_wrong_3: 162
+absolute_wrong_12: 2, absolute_wrong_13: 39, absolute_wrong_23: 5
+all_wrong: 2
+e1: 989, e2: 46, e3: 2
+e2_baseline_correct: 7, e2_DFG_correct: 33, e2_DFG_revise: 29
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['alexnet', 'densenet', 'vgg16']
+bug_ids: [9, 0, 0]
+model_test_acc: [0.9783, 0.9969, 0.9984999999999999]
+dfg_accuracy: 0.9979, baseline_accuracy: 0.9988, upper_limit: 0.9999
+absolute improvement rate: -0.0009, relative improvement rate: -0.8125
+absolute_wrong_1: 295, absolute_wrong_2: 29, absolute_wrong_3: 11
+absolute_wrong_12: 13, absolute_wrong_13: 7, absolute_wrong_23: 2
+all_wrong: 2
+e1: 335, e2: 22, e3: 2
+e2_baseline_correct: 6, e2_DFG_correct: 17, e2_DFG_revise: 12
+==================================================
+==================================================
+Dataset: TSCD
+Models: ['resnet', 'squeezenet', 'densenet']
+bug_ids: [10, 0, 0]
+model_test_acc: [0.9747, 0.9995, 0.9969]
+dfg_accuracy: 0.9994, baseline_accuracy: 0.9996, upper_limit: 1.0000
+absolute improvement rate: -0.0002, relative improvement rate: -0.5000
+absolute_wrong_1: 361, absolute_wrong_2: 6, absolute_wrong_3: 39
+absolute_wrong_12: 2, absolute_wrong_13: 7, absolute_wrong_23: 0
+all_wrong: 0
+e1: 406, e2: 9, e3: 0
+e2_baseline_correct: 3, e2_DFG_correct: 7, e2_DFG_revise: 5
+==================================================

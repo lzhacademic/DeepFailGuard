@@ -1,0 +1,273 @@
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'resnet', 'alexnet']
+bug_ids: [0, 0, 0]
+model_test_acc: [0.9894, 0.9995, 0.9659]
+dfg_accuracy: 0.9944, baseline_accuracy: 0.9951, upper_limit: 0.9998
+absolute improvement rate: -0.0007, relative improvement rate: -0.1500
+absolute_wrong_1: 20, absolute_wrong_2: 1, absolute_wrong_3: 120
+absolute_wrong_12: 0, absolute_wrong_13: 24, absolute_wrong_23: 0
+all_wrong: 1
+e1: 141, e2: 24, e3: 1
+e2_baseline_correct: 4, e2_DFG_correct: 20, e2_DFG_revise: 17
+==================================================
+==================================================
+Dataset: TTS
+Models: ['squeezenet', 'resnet', 'vgg16']
+bug_ids: [1, 1, 1]
+model_test_acc: [0.972, 0.9871, 0.9934000000000001]
+dfg_accuracy: 0.9955, baseline_accuracy: 0.9965, upper_limit: 0.9993
+absolute improvement rate: -0.0009, relative improvement rate: -0.3333
+absolute_wrong_1: 98, absolute_wrong_2: 43, absolute_wrong_3: 15
+absolute_wrong_12: 9, absolute_wrong_13: 10, absolute_wrong_23: 0
+all_wrong: 3
+e1: 156, e2: 19, e3: 3
+e2_baseline_correct: 7, e2_DFG_correct: 12, e2_DFG_revise: 8
+==================================================
+==================================================
+Dataset: TTS
+Models: ['resnet', 'vgg16', 'densenet']
+bug_ids: [2, 2, 2]
+model_test_acc: [0.9598, 0.9819, 0.9972]
+dfg_accuracy: 0.9976, baseline_accuracy: 0.9986, upper_limit: 0.9998
+absolute improvement rate: -0.0009, relative improvement rate: -0.8000
+absolute_wrong_1: 165, absolute_wrong_2: 70, absolute_wrong_3: 8
+absolute_wrong_12: 4, absolute_wrong_13: 1, absolute_wrong_23: 2
+all_wrong: 1
+e1: 243, e2: 7, e3: 1
+e2_baseline_correct: 2, e2_DFG_correct: 4, e2_DFG_revise: 2
+==================================================
+==================================================
+Dataset: TTS
+Models: ['squeezenet', 'alexnet', 'densenet']
+bug_ids: [3, 3, 3]
+model_test_acc: [0.9765, 0.9732, 0.9984000000000001]
+dfg_accuracy: 0.9941, baseline_accuracy: 0.9892, upper_limit: 0.9995
+absolute improvement rate: 0.0049, relative improvement rate: 0.4773
+absolute_wrong_1: 49, absolute_wrong_2: 62, absolute_wrong_3: 2
+absolute_wrong_12: 48, absolute_wrong_13: 1, absolute_wrong_23: 2
+all_wrong: 2
+e1: 113, e2: 51, e3: 2
+e2_baseline_correct: 7, e2_DFG_correct: 33, e2_DFG_revise: 27
+==================================================
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'squeezenet', 'resnet']
+bug_ids: [4, 4, 4]
+model_test_acc: [0.9922, 0.9842, 0.9922]
+dfg_accuracy: 0.9972, baseline_accuracy: 0.9979, upper_limit: 0.9995
+absolute improvement rate: -0.0007, relative improvement rate: -0.4286
+absolute_wrong_1: 21, absolute_wrong_2: 54, absolute_wrong_3: 28
+absolute_wrong_12: 9, absolute_wrong_13: 1, absolute_wrong_23: 2
+all_wrong: 2
+e1: 103, e2: 12, e3: 2
+e2_baseline_correct: 5, e2_DFG_correct: 6, e2_DFG_revise: 3
+==================================================
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'alexnet', 'densenet']
+bug_ids: [5, 5, 5]
+model_test_acc: [0.9786, 0.5501, 0.9856]
+dfg_accuracy: 0.9638, baseline_accuracy: 0.9809, upper_limit: 0.9948
+absolute improvement rate: -0.0172, relative improvement rate: -1.2373
+absolute_wrong_1: 0, absolute_wrong_2: 1790, absolute_wrong_3: 6
+absolute_wrong_12: 68, absolute_wrong_13: 1, absolute_wrong_23: 32
+all_wrong: 22
+e1: 1796, e2: 101, e3: 22
+e2_baseline_correct: 42, e2_DFG_correct: 58, e2_DFG_revise: 34
+==================================================
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'resnet', 'alexnet']
+bug_ids: [6, 6, 6]
+model_test_acc: [0.9906, 0.9845, 0.9647]
+dfg_accuracy: 0.9927, baseline_accuracy: 0.9965, upper_limit: 0.9998
+absolute improvement rate: -0.0038, relative improvement rate: -1.1429
+absolute_wrong_1: 23, absolute_wrong_2: 60, absolute_wrong_3: 134
+absolute_wrong_12: 3, absolute_wrong_13: 13, absolute_wrong_23: 2
+all_wrong: 1
+e1: 217, e2: 18, e3: 1
+e2_baseline_correct: 4, e2_DFG_correct: 12, e2_DFG_revise: 11
+==================================================
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'alexnet', 'resnet']
+bug_ids: [7, 7, 7]
+model_test_acc: [0.9821, 0.6769, 0.9868000000000001]
+dfg_accuracy: 0.9809, baseline_accuracy: 0.9852, upper_limit: 0.9984
+absolute improvement rate: -0.0042, relative improvement rate: -0.3214
+absolute_wrong_1: 17, absolute_wrong_2: 1290, absolute_wrong_3: 25
+absolute_wrong_12: 52, absolute_wrong_13: 0, absolute_wrong_23: 24
+all_wrong: 7
+e1: 1332, e2: 76, e3: 7
+e2_baseline_correct: 20, e2_DFG_correct: 55, e2_DFG_revise: 44
+==================================================
+==================================================
+Dataset: TTS
+Models: ['densenet', 'alexnet', 'vgg16']
+bug_ids: [8, 8, 8]
+model_test_acc: [0.9882, 0.9708, 0.9456]
+dfg_accuracy: 0.9849, baseline_accuracy: 0.9889, upper_limit: 0.9976
+absolute improvement rate: -0.0040, relative improvement rate: -0.4595
+absolute_wrong_1: 29, absolute_wrong_2: 82, absolute_wrong_3: 182
+absolute_wrong_12: 2, absolute_wrong_13: 9, absolute_wrong_23: 30
+all_wrong: 10
+e1: 293, e2: 41, e3: 10
+e2_baseline_correct: 4, e2_DFG_correct: 15, e2_DFG_revise: 14
+==================================================
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'densenet', 'alexnet']
+bug_ids: [9, 9, 9]
+model_test_acc: [0.9695999999999999, 0.9934000000000001, 0.9016]
+dfg_accuracy: 0.9760, baseline_accuracy: 0.9856, upper_limit: 0.9953
+absolute improvement rate: -0.0096, relative improvement rate: -1.0000
+absolute_wrong_1: 49, absolute_wrong_2: 2, absolute_wrong_3: 335
+absolute_wrong_12: 2, absolute_wrong_13: 58, absolute_wrong_23: 5
+all_wrong: 20
+e1: 386, e2: 65, e3: 20
+e2_baseline_correct: 24, e2_DFG_correct: 26, e2_DFG_revise: 16
+==================================================
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'resnet', 'squeezenet']
+bug_ids: [10, 10, 10]
+model_test_acc: [0.9892, 0.9993000000000001, 0.9986]
+dfg_accuracy: 0.9986, baseline_accuracy: 0.9995, upper_limit: 0.9998
+absolute improvement rate: -0.0009, relative improvement rate: -4.0000
+absolute_wrong_1: 43, absolute_wrong_2: 2, absolute_wrong_3: 3
+absolute_wrong_12: 0, absolute_wrong_13: 2, absolute_wrong_23: 0
+all_wrong: 1
+e1: 48, e2: 2, e3: 1
+e2_baseline_correct: 1, e2_DFG_correct: 0, e2_DFG_revise: 0
+==================================================
+==================================================
+Dataset: TTS
+Models: ['alexnet', 'resnet', 'squeezenet']
+bug_ids: [1, 0, 0]
+model_test_acc: [0.9601999999999999, 0.9995, 0.9987999999999999]
+dfg_accuracy: 0.9974, baseline_accuracy: 0.9988, upper_limit: 0.9998
+absolute improvement rate: -0.0014, relative improvement rate: -1.5000
+absolute_wrong_1: 164, absolute_wrong_2: 0, absolute_wrong_3: 1
+absolute_wrong_12: 1, absolute_wrong_13: 3, absolute_wrong_23: 0
+all_wrong: 1
+e1: 165, e2: 4, e3: 1
+e2_baseline_correct: 0, e2_DFG_correct: 2, e2_DFG_revise: 2
+==================================================
+==================================================
+Dataset: TTS
+Models: ['alexnet', 'densenet', 'resnet']
+bug_ids: [2, 0, 0]
+model_test_acc: [0.9689, 0.9967, 0.9995]
+dfg_accuracy: 0.9979, baseline_accuracy: 0.9979, upper_limit: 0.9998
+absolute improvement rate: 0.0000, relative improvement rate: 0.0000
+absolute_wrong_1: 123, absolute_wrong_2: 6, absolute_wrong_3: 0
+absolute_wrong_12: 7, absolute_wrong_13: 1, absolute_wrong_23: 0
+all_wrong: 1
+e1: 129, e2: 8, e3: 1
+e2_baseline_correct: 0, e2_DFG_correct: 6, e2_DFG_revise: 6
+==================================================
+==================================================
+Dataset: TTS
+Models: ['alexnet', 'squeezenet', 'vgg16']
+bug_ids: [3, 0, 0]
+model_test_acc: [0.9732, 0.9987999999999999, 0.9894]
+dfg_accuracy: 0.9918, baseline_accuracy: 0.9941, upper_limit: 0.9995
+absolute improvement rate: -0.0024, relative improvement rate: -0.4348
+absolute_wrong_1: 89, absolute_wrong_2: 1, absolute_wrong_3: 22
+absolute_wrong_12: 2, absolute_wrong_13: 21, absolute_wrong_23: 0
+all_wrong: 2
+e1: 112, e2: 23, e3: 2
+e2_baseline_correct: 0, e2_DFG_correct: 10, e2_DFG_revise: 10
+==================================================
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'densenet', 'alexnet']
+bug_ids: [4, 0, 0]
+model_test_acc: [0.9922, 0.9967, 0.9659]
+dfg_accuracy: 0.9958, baseline_accuracy: 0.9962, upper_limit: 0.9991
+absolute improvement rate: -0.0005, relative improvement rate: -0.1667
+absolute_wrong_1: 18, absolute_wrong_2: 5, absolute_wrong_3: 125
+absolute_wrong_12: 0, absolute_wrong_13: 11, absolute_wrong_23: 5
+all_wrong: 4
+e1: 148, e2: 16, e3: 4
+e2_baseline_correct: 4, e2_DFG_correct: 10, e2_DFG_revise: 9
+==================================================
+==================================================
+Dataset: TTS
+Models: ['alexnet', 'vgg16', 'resnet']
+bug_ids: [5, 0, 0]
+model_test_acc: [0.5501, 0.9894, 0.9995]
+dfg_accuracy: 0.9704, baseline_accuracy: 0.9941, upper_limit: 0.9998
+absolute improvement rate: -0.0238, relative improvement rate: -4.2083
+absolute_wrong_1: 1868, absolute_wrong_2: 2, absolute_wrong_3: 0
+absolute_wrong_12: 42, absolute_wrong_13: 1, absolute_wrong_23: 0
+all_wrong: 1
+e1: 1870, e2: 43, e3: 1
+e2_baseline_correct: 19, e2_DFG_correct: 34, e2_DFG_revise: 21
+==================================================
+==================================================
+Dataset: TTS
+Models: ['squeezenet', 'vgg16', 'alexnet']
+bug_ids: [6, 0, 0]
+model_test_acc: [0.9765, 0.9894, 0.9659]
+dfg_accuracy: 0.9861, baseline_accuracy: 0.9904, upper_limit: 0.9976
+absolute improvement rate: -0.0042, relative improvement rate: -0.5806
+absolute_wrong_1: 66, absolute_wrong_2: 18, absolute_wrong_3: 98
+absolute_wrong_12: 2, absolute_wrong_13: 22, absolute_wrong_23: 15
+all_wrong: 10
+e1: 182, e2: 39, e3: 10
+e2_baseline_correct: 8, e2_DFG_correct: 22, e2_DFG_revise: 15
+==================================================
+==================================================
+Dataset: TTS
+Models: ['squeezenet', 'alexnet', 'resnet']
+bug_ids: [7, 0, 0]
+model_test_acc: [0.9802, 0.9659, 0.9995]
+dfg_accuracy: 0.9939, baseline_accuracy: 0.9927, upper_limit: 0.9998
+absolute improvement rate: 0.0012, relative improvement rate: 0.1667
+absolute_wrong_1: 48, absolute_wrong_2: 110, absolute_wrong_3: 0
+absolute_wrong_12: 34, absolute_wrong_13: 1, absolute_wrong_23: 0
+all_wrong: 1
+e1: 158, e2: 35, e3: 1
+e2_baseline_correct: 5, e2_DFG_correct: 20, e2_DFG_revise: 16
+==================================================
+==================================================
+Dataset: TTS
+Models: ['squeezenet', 'resnet', 'densenet']
+bug_ids: [8, 0, 0]
+model_test_acc: [0.9754999999999999, 0.9995, 0.9967]
+dfg_accuracy: 0.9984, baseline_accuracy: 0.9979, upper_limit: 0.9998
+absolute improvement rate: 0.0005, relative improvement rate: 0.2500
+absolute_wrong_1: 95, absolute_wrong_2: 0, absolute_wrong_3: 6
+absolute_wrong_12: 1, absolute_wrong_13: 7, absolute_wrong_23: 0
+all_wrong: 1
+e1: 101, e2: 8, e3: 1
+e2_baseline_correct: 0, e2_DFG_correct: 7, e2_DFG_revise: 7
+==================================================
+==================================================
+Dataset: TTS
+Models: ['resnet', 'vgg16', 'alexnet']
+bug_ids: [9, 0, 0]
+model_test_acc: [0.9612, 0.9894, 0.9659]
+dfg_accuracy: 0.9896, baseline_accuracy: 0.9913, upper_limit: 0.9984
+absolute improvement rate: -0.0016, relative improvement rate: -0.2333
+absolute_wrong_1: 138, absolute_wrong_2: 20, absolute_wrong_3: 100
+absolute_wrong_12: 0, absolute_wrong_13: 20, absolute_wrong_23: 18
+all_wrong: 7
+e1: 258, e2: 38, e3: 7
+e2_baseline_correct: 8, e2_DFG_correct: 27, e2_DFG_revise: 21
+==================================================
+==================================================
+Dataset: TTS
+Models: ['resnet', 'squeezenet', 'densenet']
+bug_ids: [10, 0, 0]
+model_test_acc: [0.9993000000000001, 0.9987999999999999, 0.9967]
+dfg_accuracy: 0.9993, baseline_accuracy: 0.9991, upper_limit: 0.9998
+absolute improvement rate: 0.0002, relative improvement rate: 0.3333
+absolute_wrong_1: 1, absolute_wrong_2: 2, absolute_wrong_3: 10
+absolute_wrong_12: 0, absolute_wrong_13: 1, absolute_wrong_23: 2
+all_wrong: 1
+e1: 13, e2: 3, e3: 1
+e2_baseline_correct: 0, e2_DFG_correct: 2, e2_DFG_revise: 2
+==================================================

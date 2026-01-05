@@ -1,0 +1,168 @@
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'alexnet']
+bug_ids: [0, 0]
+model_test_acc: [0.915, 0.925]
+dfg_accuracy: 0.9350, baseline_accuracy: 0.9150, upper_limit: 0.9575
+absolute improvement rate: 0.0200, relative improvement rate: 0.4706
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'squeezenet']
+bug_ids: [1, 1]
+model_test_acc: [0.8725, 0.885]
+dfg_accuracy: 0.9075, baseline_accuracy: 0.8575, upper_limit: 0.9550
+absolute improvement rate: 0.0500, relative improvement rate: 0.5128
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['alexnet', 'resnet']
+bug_ids: [2, 2]
+model_test_acc: [0.8675, 0.885]
+dfg_accuracy: 0.9025, baseline_accuracy: 0.8600, upper_limit: 0.9350
+absolute improvement rate: 0.0425, relative improvement rate: 0.5667
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'squeezenet']
+bug_ids: [3, 3]
+model_test_acc: [0.92, 0.855]
+dfg_accuracy: 0.9350, baseline_accuracy: 0.8600, upper_limit: 0.9600
+absolute improvement rate: 0.0750, relative improvement rate: 0.7500
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['densenet', 'alexnet']
+bug_ids: [4, 4]
+model_test_acc: [0.925, 0.9525]
+dfg_accuracy: 0.9475, baseline_accuracy: 0.9275, upper_limit: 0.9700
+absolute improvement rate: 0.0200, relative improvement rate: 0.4706
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['densenet', 'vgg16']
+bug_ids: [5, 5]
+model_test_acc: [0.7925, 0.87]
+dfg_accuracy: 0.8475, baseline_accuracy: 0.7875, upper_limit: 0.9075
+absolute improvement rate: 0.0600, relative improvement rate: 0.5000
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['squeezenet', 'alexnet']
+bug_ids: [6, 6]
+model_test_acc: [0.845, 0.9325]
+dfg_accuracy: 0.9200, baseline_accuracy: 0.8475, upper_limit: 0.9650
+absolute improvement rate: 0.0725, relative improvement rate: 0.6170
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'alexnet']
+bug_ids: [7, 7]
+model_test_acc: [0.9275, 0.8775]
+dfg_accuracy: 0.9350, baseline_accuracy: 0.8825, upper_limit: 0.9550
+absolute improvement rate: 0.0525, relative improvement rate: 0.7241
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'resnet']
+bug_ids: [8, 8]
+model_test_acc: [0.885, 0.6875]
+dfg_accuracy: 0.8950, baseline_accuracy: 0.7375, upper_limit: 0.9450
+absolute improvement rate: 0.1575, relative improvement rate: 0.7590
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'alexnet']
+bug_ids: [9, 9]
+model_test_acc: [0.86, 0.865]
+dfg_accuracy: 0.8925, baseline_accuracy: 0.8650, upper_limit: 0.9350
+absolute improvement rate: 0.0275, relative improvement rate: 0.3929
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['squeezenet', 'densenet']
+bug_ids: [10, 10]
+model_test_acc: [0.7975, 0.8525]
+dfg_accuracy: 0.8675, baseline_accuracy: 0.7875, upper_limit: 0.9325
+absolute improvement rate: 0.0800, relative improvement rate: 0.5517
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'densenet']
+bug_ids: [1, 0]
+model_test_acc: [0.8725, 0.9475]
+dfg_accuracy: 0.9550, baseline_accuracy: 0.9125, upper_limit: 0.9800
+absolute improvement rate: 0.0425, relative improvement rate: 0.6296
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['resnet', 'densenet']
+bug_ids: [2, 0]
+model_test_acc: [0.885, 0.9475]
+dfg_accuracy: 0.9475, baseline_accuracy: 0.8950, upper_limit: 0.9750
+absolute improvement rate: 0.0525, relative improvement rate: 0.6563
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['alexnet', 'densenet']
+bug_ids: [3, 0]
+model_test_acc: [0.8775, 0.9475]
+dfg_accuracy: 0.9525, baseline_accuracy: 0.9150, upper_limit: 0.9775
+absolute improvement rate: 0.0375, relative improvement rate: 0.6000
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['squeezenet', 'densenet']
+bug_ids: [4, 0]
+model_test_acc: [0.8925, 0.9475]
+dfg_accuracy: 0.9450, baseline_accuracy: 0.8975, upper_limit: 0.9775
+absolute improvement rate: 0.0475, relative improvement rate: 0.5937
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['alexnet', 'vgg16']
+bug_ids: [5, 0]
+model_test_acc: [0.9125, 0.915]
+dfg_accuracy: 0.9375, baseline_accuracy: 0.8925, upper_limit: 0.9575
+absolute improvement rate: 0.0450, relative improvement rate: 0.6923
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['squeezenet', 'alexnet']
+bug_ids: [6, 0]
+model_test_acc: [0.845, 0.925]
+dfg_accuracy: 0.9025, baseline_accuracy: 0.8475, upper_limit: 0.9525
+absolute improvement rate: 0.0550, relative improvement rate: 0.5238
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['squeezenet', 'densenet']
+bug_ids: [7, 0]
+model_test_acc: [0.87, 0.9475]
+dfg_accuracy: 0.9450, baseline_accuracy: 0.8750, upper_limit: 0.9800
+absolute improvement rate: 0.0700, relative improvement rate: 0.6667
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['resnet', 'alexnet']
+bug_ids: [8, 0]
+model_test_acc: [0.6875, 0.925]
+dfg_accuracy: 0.9050, baseline_accuracy: 0.7650, upper_limit: 0.9650
+absolute improvement rate: 0.1400, relative improvement rate: 0.7000
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['vgg16', 'squeezenet']
+bug_ids: [9, 0]
+model_test_acc: [0.86, 0.85]
+dfg_accuracy: 0.8900, baseline_accuracy: 0.8375, upper_limit: 0.9475
+absolute improvement rate: 0.0525, relative improvement rate: 0.4773
+==================================================
+==================================================
+Dataset: COVIDX9A
+Models: ['densenet', 'squeezenet']
+bug_ids: [10, 0]
+model_test_acc: [0.8525, 0.85]
+dfg_accuracy: 0.9150, baseline_accuracy: 0.8100, upper_limit: 0.9750
+absolute improvement rate: 0.1050, relative improvement rate: 0.6364
+==================================================

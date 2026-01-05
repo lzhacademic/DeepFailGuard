@@ -1,0 +1,345 @@
+==================================================
+Dataset: CIFAR10
+Models: ['resnet', 'alexnet', 'squeezenet']
+bug_ids: [0, 0, 0]
+model_test_acc: [0.8016, 0.7853, 0.8040999999999999]
+dfg_accuracy: 0.8472, baseline_accuracy: 0.8355, upper_limit: 0.9275
+absolute improvement rate: 0.0117, relative improvement rate: 0.1272
+absolute_wrong_1: 625, absolute_wrong_2: 665, absolute_wrong_3: 502
+absolute_wrong_12: 330, absolute_wrong_13: 304, absolute_wrong_23: 427
+all_correct: 6422, all_wrong: 725
+e1: 1792, e2: 1061, e3: 725
+e1_baseline_correct: 1792, e1_DFG_correct: 1566, e1_DFG_revise: 0
+e2_baseline_correct: 141, e2_DFG_correct: 484, e2_DFG_revise: 419
+lower_limit: 0.6422
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['alexnet', 'densenet', 'squeezenet']
+bug_ids: [1, 1, 1]
+model_test_acc: [0.7195, 0.8297, 0.7975]
+dfg_accuracy: 0.8553, baseline_accuracy: 0.8324, upper_limit: 0.9307
+absolute improvement rate: 0.0229, relative improvement rate: 0.2330
+absolute_wrong_1: 1182, absolute_wrong_2: 446, absolute_wrong_3: 439
+absolute_wrong_12: 303, absolute_wrong_13: 627, absolute_wrong_23: 263
+all_correct: 6047, all_wrong: 693
+e1: 2067, e2: 1193, e3: 693
+e1_baseline_correct: 2067, e1_DFG_correct: 1879, e1_DFG_revise: 0
+e2_baseline_correct: 210, e2_DFG_correct: 627, e2_DFG_revise: 519
+lower_limit: 0.6047
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['squeezenet', 'vgg16', 'resnet']
+bug_ids: [2, 2, 2]
+model_test_acc: [0.7963, 0.8194, 0.6715000000000001]
+dfg_accuracy: 0.8415, baseline_accuracy: 0.8304, upper_limit: 0.9281
+absolute improvement rate: 0.0111, relative improvement rate: 0.1136
+absolute_wrong_1: 549, absolute_wrong_2: 353, absolute_wrong_3: 1686
+absolute_wrong_12: 312, absolute_wrong_13: 457, absolute_wrong_23: 423
+all_correct: 5501, all_wrong: 719
+e1: 2588, e2: 1192, e3: 719
+e1_baseline_correct: 2588, e1_DFG_correct: 2343, e1_DFG_revise: 0
+e2_baseline_correct: 215, e2_DFG_correct: 571, e2_DFG_revise: 458
+lower_limit: 0.5501
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['alexnet', 'densenet', 'squeezenet']
+bug_ids: [3, 3, 3]
+model_test_acc: [0.7284, 0.8208, 0.7925]
+dfg_accuracy: 0.8510, baseline_accuracy: 0.8359, upper_limit: 0.9313
+absolute improvement rate: 0.0151, relative improvement rate: 0.1583
+absolute_wrong_1: 1134, absolute_wrong_2: 504, absolute_wrong_3: 551
+absolute_wrong_12: 329, absolute_wrong_13: 566, absolute_wrong_23: 271
+all_correct: 5958, all_wrong: 687
+e1: 2189, e2: 1166, e3: 687
+e1_baseline_correct: 2189, e1_DFG_correct: 1953, e1_DFG_revise: 0
+e2_baseline_correct: 212, e2_DFG_correct: 599, e2_DFG_revise: 497
+lower_limit: 0.5958
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['squeezenet', 'vgg16', 'resnet']
+bug_ids: [4, 4, 4]
+model_test_acc: [0.7907, 0.7979, 0.7047]
+dfg_accuracy: 0.8222, baseline_accuracy: 0.8126, upper_limit: 0.9131
+absolute improvement rate: 0.0096, relative improvement rate: 0.0955
+absolute_wrong_1: 487, absolute_wrong_2: 442, absolute_wrong_3: 1194
+absolute_wrong_12: 279, absolute_wrong_13: 459, absolute_wrong_23: 431
+all_correct: 5839, all_wrong: 869
+e1: 2123, e2: 1169, e3: 869
+e1_baseline_correct: 2123, e1_DFG_correct: 1857, e1_DFG_revise: 0
+e2_baseline_correct: 164, e2_DFG_correct: 526, e2_DFG_revise: 446
+lower_limit: 0.5839
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['resnet', 'densenet', 'squeezenet']
+bug_ids: [5, 5, 5]
+model_test_acc: [0.684, 0.7288, 0.6022]
+dfg_accuracy: 0.7811, baseline_accuracy: 0.7393, upper_limit: 0.9136
+absolute improvement rate: 0.0418, relative improvement rate: 0.2398
+absolute_wrong_1: 826, absolute_wrong_2: 834, absolute_wrong_3: 1381
+absolute_wrong_12: 377, absolute_wrong_13: 1094, absolute_wrong_23: 638
+all_correct: 3986, all_wrong: 864
+e1: 3041, e2: 2109, e3: 864
+e1_baseline_correct: 3041, e1_DFG_correct: 2666, e1_DFG_revise: 0
+e2_baseline_correct: 366, e2_DFG_correct: 1159, e2_DFG_revise: 969
+lower_limit: 0.3986
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['densenet', 'alexnet', 'resnet']
+bug_ids: [6, 6, 6]
+model_test_acc: [0.8099, 0.6893, 0.7666]
+dfg_accuracy: 0.8339, baseline_accuracy: 0.8125, upper_limit: 0.9248
+absolute improvement rate: 0.0214, relative improvement rate: 0.1906
+absolute_wrong_1: 512, absolute_wrong_2: 1384, absolute_wrong_3: 624
+absolute_wrong_12: 326, absolute_wrong_13: 314, absolute_wrong_23: 645
+all_correct: 5443, all_wrong: 752
+e1: 2520, e2: 1285, e3: 752
+e1_baseline_correct: 2520, e1_DFG_correct: 2259, e1_DFG_revise: 0
+e2_baseline_correct: 162, e2_DFG_correct: 637, e2_DFG_revise: 550
+lower_limit: 0.5443
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['resnet', 'squeezenet', 'alexnet']
+bug_ids: [7, 7, 7]
+model_test_acc: [0.7021, 0.7964, 0.6829000000000001]
+dfg_accuracy: 0.8076, baseline_accuracy: 0.7849, upper_limit: 0.9135
+absolute improvement rate: 0.0227, relative improvement rate: 0.1765
+absolute_wrong_1: 1115, absolute_wrong_2: 319, absolute_wrong_3: 1128
+absolute_wrong_12: 335, absolute_wrong_13: 663, absolute_wrong_23: 515
+all_correct: 5060, all_wrong: 865
+e1: 2562, e2: 1513, e3: 865
+e1_baseline_correct: 2562, e1_DFG_correct: 2280, e1_DFG_revise: 0
+e2_baseline_correct: 227, e2_DFG_correct: 736, e2_DFG_revise: 631
+lower_limit: 0.506
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['squeezenet', 'densenet', 'resnet']
+bug_ids: [8, 8, 8]
+model_test_acc: [0.7648, 0.7376999999999999, 0.6953]
+dfg_accuracy: 0.8138, baseline_accuracy: 0.7898, upper_limit: 0.9139
+absolute improvement rate: 0.0240, relative improvement rate: 0.1934
+absolute_wrong_1: 570, absolute_wrong_2: 862, absolute_wrong_3: 1068
+absolute_wrong_12: 353, absolute_wrong_13: 568, absolute_wrong_23: 548
+all_correct: 5170, all_wrong: 861
+e1: 2500, e2: 1469, e3: 861
+e1_baseline_correct: 2500, e1_DFG_correct: 2234, e1_DFG_revise: 0
+e2_baseline_correct: 228, e2_DFG_correct: 734, e2_DFG_revise: 608
+lower_limit: 0.517
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['vgg16', 'resnet', 'squeezenet']
+bug_ids: [9, 9, 9]
+model_test_acc: [0.7404999999999999, 0.40549999999999997, 0.7129000000000001]
+dfg_accuracy: 0.7603, baseline_accuracy: 0.7205, upper_limit: 0.8709
+absolute improvement rate: 0.0398, relative improvement rate: 0.2646
+absolute_wrong_1: 319, absolute_wrong_2: 3005, absolute_wrong_3: 315
+absolute_wrong_12: 684, absolute_wrong_13: 301, absolute_wrong_23: 965
+all_correct: 3120, all_wrong: 1291
+e1: 3639, e2: 1950, e3: 1291
+e1_baseline_correct: 3639, e1_DFG_correct: 3440, e1_DFG_revise: 0
+e2_baseline_correct: 446, e2_DFG_correct: 1043, e2_DFG_revise: 792
+lower_limit: 0.312
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['squeezenet', 'alexnet', 'vgg16']
+bug_ids: [10, 10, 10]
+model_test_acc: [0.7336, 0.7706999999999999, 0.7615000000000001]
+dfg_accuracy: 0.8049, baseline_accuracy: 0.7963, upper_limit: 0.8976
+absolute improvement rate: 0.0086, relative improvement rate: 0.0849
+absolute_wrong_1: 757, absolute_wrong_2: 521, absolute_wrong_3: 539
+absolute_wrong_12: 406, absolute_wrong_13: 480, absolute_wrong_23: 342
+all_correct: 5931, all_wrong: 1024
+e1: 1817, e2: 1228, e3: 1024
+e1_baseline_correct: 1817, e1_DFG_correct: 1563, e1_DFG_revise: 0
+e2_baseline_correct: 215, e2_DFG_correct: 555, e2_DFG_revise: 451
+lower_limit: 0.5931
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['alexnet', 'vgg16', 'resnet']
+bug_ids: [11, 11, 11]
+model_test_acc: [0.6541, 0.6517000000000001, 0.6833]
+dfg_accuracy: 0.7323, baseline_accuracy: 0.7110, upper_limit: 0.8540
+absolute improvement rate: 0.0213, relative improvement rate: 0.1488
+absolute_wrong_1: 154, absolute_wrong_2: 158, absolute_wrong_3: 156
+absolute_wrong_12: 156, absolute_wrong_13: 94, absolute_wrong_23: 95
+all_correct: 913, all_wrong: 295
+e1: 468, e2: 345, e3: 295
+e1_baseline_correct: 468, e1_DFG_correct: 394, e1_DFG_revise: 0
+e2_baseline_correct: 56, e2_DFG_correct: 173, e2_DFG_revise: 140
+lower_limit: 0.4517565561603167
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['vgg16', 'densenet', 'alexnet']
+bug_ids: [12, 12, 12]
+model_test_acc: [0.66, 0.757, 0.657]
+dfg_accuracy: 0.7555, baseline_accuracy: 0.7425, upper_limit: 0.8670
+absolute improvement rate: 0.0130, relative improvement rate: 0.1044
+absolute_wrong_1: 170, absolute_wrong_2: 79, absolute_wrong_3: 179
+absolute_wrong_12: 72, absolute_wrong_13: 172, absolute_wrong_23: 69
+all_correct: 993, all_wrong: 266
+e1: 428, e2: 313, e3: 266
+e1_baseline_correct: 428, e1_DFG_correct: 376, e1_DFG_revise: 0
+e2_baseline_correct: 64, e2_DFG_correct: 142, e2_DFG_revise: 110
+lower_limit: 0.4965
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['densenet', 'vgg16', 'resnet']
+bug_ids: [1, 0, 0]
+model_test_acc: [0.8297, 0.7992, 0.8016]
+dfg_accuracy: 0.8697, baseline_accuracy: 0.8549, upper_limit: 0.9403
+absolute improvement rate: 0.0148, relative improvement rate: 0.1733
+absolute_wrong_1: 478, absolute_wrong_2: 733, absolute_wrong_3: 665
+absolute_wrong_12: 293, absolute_wrong_13: 337, absolute_wrong_23: 385
+all_correct: 6512, all_wrong: 597
+e1: 1876, e2: 1015, e3: 597
+e1_baseline_correct: 1876, e1_DFG_correct: 1693, e1_DFG_revise: 0
+e2_baseline_correct: 161, e2_DFG_correct: 492, e2_DFG_revise: 411
+lower_limit: 0.6512
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['squeezenet', 'alexnet', 'vgg16']
+bug_ids: [2, 0, 0]
+model_test_acc: [0.7963, 0.7853, 0.7992]
+dfg_accuracy: 0.8424, baseline_accuracy: 0.8306, upper_limit: 0.9201
+absolute improvement rate: 0.0118, relative improvement rate: 0.1318
+absolute_wrong_1: 586, absolute_wrong_2: 577, absolute_wrong_3: 540
+absolute_wrong_12: 377, absolute_wrong_13: 275, absolute_wrong_23: 394
+all_correct: 6452, all_wrong: 799
+e1: 1703, e2: 1046, e3: 799
+e1_baseline_correct: 1703, e1_DFG_correct: 1498, e1_DFG_revise: 0
+e2_baseline_correct: 151, e2_DFG_correct: 474, e2_DFG_revise: 401
+lower_limit: 0.6452
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['vgg16', 'squeezenet', 'alexnet']
+bug_ids: [3, 0, 0]
+model_test_acc: [0.8136, 0.8040999999999999, 0.7853]
+dfg_accuracy: 0.8405, baseline_accuracy: 0.8337, upper_limit: 0.9221
+absolute improvement rate: 0.0068, relative improvement rate: 0.0769
+absolute_wrong_1: 435, absolute_wrong_2: 525, absolute_wrong_3: 626
+absolute_wrong_12: 281, absolute_wrong_13: 369, absolute_wrong_23: 373
+all_correct: 6612, all_wrong: 779
+e1: 1586, e2: 1023, e3: 779
+e1_baseline_correct: 1586, e1_DFG_correct: 1371, e1_DFG_revise: 0
+e2_baseline_correct: 139, e2_DFG_correct: 422, e2_DFG_revise: 353
+lower_limit: 0.6612
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['resnet', 'densenet', 'alexnet']
+bug_ids: [4, 0, 0]
+model_test_acc: [0.7047, 0.8608, 0.7853]
+dfg_accuracy: 0.8592, baseline_accuracy: 0.8287, upper_limit: 0.9329
+absolute improvement rate: 0.0305, relative improvement rate: 0.2927
+absolute_wrong_1: 1255, absolute_wrong_2: 275, absolute_wrong_3: 541
+absolute_wrong_12: 269, absolute_wrong_13: 758, absolute_wrong_23: 177
+all_correct: 6054, all_wrong: 671
+e1: 2071, e2: 1204, e3: 671
+e1_baseline_correct: 2071, e1_DFG_correct: 1870, e1_DFG_revise: 0
+e2_baseline_correct: 162, e2_DFG_correct: 668, e2_DFG_revise: 573
+lower_limit: 0.6054
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['densenet', 'resnet', 'alexnet']
+bug_ids: [5, 0, 0]
+model_test_acc: [0.7288, 0.8016, 0.7853]
+dfg_accuracy: 0.8411, baseline_accuracy: 0.8298, upper_limit: 0.9299
+absolute improvement rate: 0.0113, relative improvement rate: 0.1129
+absolute_wrong_1: 1109, absolute_wrong_2: 537, absolute_wrong_3: 581
+absolute_wrong_12: 392, absolute_wrong_13: 511, absolute_wrong_23: 354
+all_correct: 5815, all_wrong: 701
+e1: 2227, e2: 1257, e3: 701
+e1_baseline_correct: 2227, e1_DFG_correct: 1990, e1_DFG_revise: 0
+e2_baseline_correct: 256, e2_DFG_correct: 606, e2_DFG_revise: 471
+lower_limit: 0.5815
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['vgg16', 'squeezenet', 'densenet']
+bug_ids: [6, 0, 0]
+model_test_acc: [0.7909, 0.8040999999999999, 0.8608]
+dfg_accuracy: 0.8692, baseline_accuracy: 0.8563, upper_limit: 0.9369
+absolute improvement rate: 0.0129, relative improvement rate: 0.1600
+absolute_wrong_1: 764, absolute_wrong_2: 620, absolute_wrong_3: 297
+absolute_wrong_12: 469, absolute_wrong_13: 226, absolute_wrong_23: 238
+all_correct: 6755, all_wrong: 631
+e1: 1681, e2: 933, e3: 631
+e1_baseline_correct: 1681, e1_DFG_correct: 1518, e1_DFG_revise: 0
+e2_baseline_correct: 127, e2_DFG_correct: 419, e2_DFG_revise: 358
+lower_limit: 0.6755
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['densenet', 'alexnet', 'resnet']
+bug_ids: [7, 0, 0]
+model_test_acc: [0.7587, 0.7853, 0.8016]
+dfg_accuracy: 0.8438, baseline_accuracy: 0.8283, upper_limit: 0.9297
+absolute improvement rate: 0.0155, relative improvement rate: 0.1529
+absolute_wrong_1: 880, absolute_wrong_2: 659, absolute_wrong_3: 534
+absolute_wrong_12: 433, absolute_wrong_13: 395, absolute_wrong_23: 352
+all_correct: 6044, all_wrong: 703
+e1: 2073, e2: 1180, e3: 703
+e1_baseline_correct: 2073, e1_DFG_correct: 1849, e1_DFG_revise: 0
+e2_baseline_correct: 166, e2_DFG_correct: 545, e2_DFG_revise: 468
+lower_limit: 0.6044
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['squeezenet', 'vgg16', 'alexnet']
+bug_ids: [8, 0, 0]
+model_test_acc: [0.7648, 0.7992, 0.7853]
+dfg_accuracy: 0.8323, baseline_accuracy: 0.8203, upper_limit: 0.9149
+absolute improvement rate: 0.0120, relative improvement rate: 0.1268
+absolute_wrong_1: 740, absolute_wrong_2: 480, absolute_wrong_3: 528
+absolute_wrong_12: 335, absolute_wrong_13: 426, absolute_wrong_23: 342
+all_correct: 6298, all_wrong: 851
+e1: 1748, e2: 1103, e3: 851
+e1_baseline_correct: 1748, e1_DFG_correct: 1523, e1_DFG_revise: 0
+e2_baseline_correct: 157, e2_DFG_correct: 502, e2_DFG_revise: 427
+lower_limit: 0.6298
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['squeezenet', 'vgg16', 'resnet']
+bug_ids: [9, 0, 0]
+model_test_acc: [0.7129000000000001, 0.7992, 0.8016]
+dfg_accuracy: 0.8365, baseline_accuracy: 0.8232, upper_limit: 0.9245
+absolute improvement rate: 0.0133, relative improvement rate: 0.1313
+absolute_wrong_1: 1124, absolute_wrong_2: 508, absolute_wrong_3: 527
+absolute_wrong_12: 518, absolute_wrong_13: 475, absolute_wrong_23: 227
+all_correct: 5866, all_wrong: 755
+e1: 2159, e2: 1220, e3: 755
+e1_baseline_correct: 2159, e1_DFG_correct: 1885, e1_DFG_revise: 0
+e2_baseline_correct: 207, e2_DFG_correct: 614, e2_DFG_revise: 494
+lower_limit: 0.5866
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['alexnet', 'densenet', 'squeezenet']
+bug_ids: [10, 0, 0]
+model_test_acc: [0.7706999999999999, 0.8608, 0.8040999999999999]
+dfg_accuracy: 0.8685, baseline_accuracy: 0.8519, upper_limit: 0.9361
+absolute improvement rate: 0.0166, relative improvement rate: 0.1971
+absolute_wrong_1: 899, absolute_wrong_2: 290, absolute_wrong_3: 567
+absolute_wrong_12: 233, absolute_wrong_13: 522, absolute_wrong_23: 230
+all_correct: 6620, all_wrong: 639
+e1: 1756, e2: 985, e3: 639
+e1_baseline_correct: 1756, e1_DFG_correct: 1576, e1_DFG_revise: 0
+e2_baseline_correct: 143, e2_DFG_correct: 489, e2_DFG_revise: 409
+lower_limit: 0.662
+==================================================

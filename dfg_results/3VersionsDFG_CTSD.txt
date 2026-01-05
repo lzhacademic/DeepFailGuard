@@ -1,0 +1,315 @@
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'squeezenet', 'resnet']
+bug_ids: [0, 0, 0]
+model_test_acc: [0.4524, 0.5125, 0.4052]
+dfg_accuracy: 0.5065, baseline_accuracy: 0.4824, upper_limit: 0.6319
+absolute improvement rate: 0.0241, relative improvement rate: 0.1611
+absolute_wrong_1: 88, absolute_wrong_2: 56, absolute_wrong_3: 150
+absolute_wrong_12: 76, absolute_wrong_13: 194, absolute_wrong_23: 106
+all_correct: 590, all_wrong: 734
+e1: 294, e2: 376, e3: 734
+e1_baseline_correct: 294, e1_DFG_correct: 246, e1_DFG_revise: 0
+e2_baseline_correct: 78, e2_DFG_correct: 174, e2_DFG_revise: 132
+lower_limit: 0.2958876629889669
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['densenet', 'squeezenet', 'resnet']
+bug_ids: [1, 1, 1]
+model_test_acc: [0.44329999999999997, 0.4594, 0.4353]
+dfg_accuracy: 0.4955, baseline_accuracy: 0.4684, upper_limit: 0.6209
+absolute improvement rate: 0.0271, relative improvement rate: 0.1776
+absolute_wrong_1: 80, absolute_wrong_2: 122, absolute_wrong_3: 84
+absolute_wrong_12: 94, absolute_wrong_13: 180, absolute_wrong_23: 106
+all_correct: 572, all_wrong: 756
+e1: 286, e2: 380, e3: 756
+e1_baseline_correct: 286, e1_DFG_correct: 244, e1_DFG_revise: 0
+e2_baseline_correct: 76, e2_DFG_correct: 172, e2_DFG_revise: 126
+lower_limit: 0.2868605817452357
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['squeezenet', 'resnet', 'alexnet']
+bug_ids: [2, 2, 2]
+model_test_acc: [0.43329999999999996, 0.348, 0.3159]
+dfg_accuracy: 0.4002, baseline_accuracy: 0.4152, upper_limit: 0.5547
+absolute improvement rate: -0.0150, relative improvement rate: -0.1079
+absolute_wrong_1: 26, absolute_wrong_2: 108, absolute_wrong_3: 160
+absolute_wrong_12: 102, absolute_wrong_13: 114, absolute_wrong_23: 202
+all_correct: 394, all_wrong: 888
+e1: 294, e2: 418, e3: 888
+e1_baseline_correct: 294, e1_DFG_correct: 250, e1_DFG_revise: 0
+e2_baseline_correct: 140, e2_DFG_correct: 154, e2_DFG_revise: 88
+lower_limit: 0.19759277833500502
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'densenet', 'vgg16']
+bug_ids: [3, 3, 3]
+model_test_acc: [0.3119, 0.4443, 0.5246]
+dfg_accuracy: 0.5266, baseline_accuracy: 0.4724, upper_limit: 0.6409
+absolute improvement rate: 0.0542, relative improvement rate: 0.3214
+absolute_wrong_1: 230, absolute_wrong_2: 54, absolute_wrong_3: 44
+absolute_wrong_12: 288, absolute_wrong_13: 138, absolute_wrong_23: 50
+all_correct: 474, all_wrong: 716
+e1: 328, e2: 476, e3: 716
+e1_baseline_correct: 328, e1_DFG_correct: 308, e1_DFG_revise: 0
+e2_baseline_correct: 140, e2_DFG_correct: 268, e2_DFG_revise: 192
+lower_limit: 0.23771313941825475
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'squeezenet', 'resnet']
+bug_ids: [4, 4, 4]
+model_test_acc: [0.2518, 0.45740000000000003, 0.32299999999999995]
+dfg_accuracy: 0.4173, baseline_accuracy: 0.3922, upper_limit: 0.5356
+absolute improvement rate: 0.0251, relative improvement rate: 0.1748
+absolute_wrong_1: 206, absolute_wrong_2: 26, absolute_wrong_3: 112
+absolute_wrong_12: 88, absolute_wrong_13: 272, absolute_wrong_23: 40
+all_correct: 324, all_wrong: 926
+e1: 344, e2: 400, e3: 926
+e1_baseline_correct: 344, e1_DFG_correct: 306, e1_DFG_revise: 0
+e2_baseline_correct: 114, e2_DFG_correct: 202, e2_DFG_revise: 138
+lower_limit: 0.1624874623871615
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['resnet', 'vgg16', 'squeezenet']
+bug_ids: [5, 5, 5]
+model_test_acc: [0.2297, 0.2688, 0.2187]
+dfg_accuracy: 0.2778, baseline_accuracy: 0.2588, upper_limit: 0.4112
+absolute improvement rate: 0.0191, relative improvement rate: 0.1250
+absolute_wrong_1: 136, absolute_wrong_2: 48, absolute_wrong_3: 64
+absolute_wrong_12: 72, absolute_wrong_13: 156, absolute_wrong_23: 164
+all_correct: 180, all_wrong: 1174
+e1: 248, e2: 392, e3: 1174
+e1_baseline_correct: 248, e1_DFG_correct: 198, e1_DFG_revise: 0
+e2_baseline_correct: 88, e2_DFG_correct: 176, e2_DFG_revise: 142
+lower_limit: 0.09027081243731194
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['densenet', 'squeezenet', 'vgg16']
+bug_ids: [6, 6, 6]
+model_test_acc: [0.43229999999999996, 0.44329999999999997, 0.5617]
+dfg_accuracy: 0.5416, baseline_accuracy: 0.5085, upper_limit: 0.6700
+absolute improvement rate: 0.0331, relative improvement rate: 0.2050
+absolute_wrong_1: 152, absolute_wrong_2: 114, absolute_wrong_3: 28
+absolute_wrong_12: 236, absolute_wrong_13: 86, absolute_wrong_23: 102
+all_correct: 618, all_wrong: 658
+e1: 294, e2: 424, e3: 658
+e1_baseline_correct: 294, e1_DFG_correct: 268, e1_DFG_revise: 0
+e2_baseline_correct: 102, e2_DFG_correct: 194, e2_DFG_revise: 154
+lower_limit: 0.30992978936810434
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['resnet', 'squeezenet', 'densenet']
+bug_ids: [7, 7, 7]
+model_test_acc: [0.32899999999999996, 0.2859, 0.40020000000000006]
+dfg_accuracy: 0.3942, baseline_accuracy: 0.3831, upper_limit: 0.5176
+absolute improvement rate: 0.0110, relative improvement rate: 0.0821
+absolute_wrong_1: 96, absolute_wrong_2: 252, absolute_wrong_3: 20
+absolute_wrong_12: 138, absolute_wrong_13: 142, absolute_wrong_23: 72
+all_correct: 312, all_wrong: 962
+e1: 368, e2: 352, e3: 962
+e1_baseline_correct: 368, e1_DFG_correct: 338, e1_DFG_revise: 0
+e2_baseline_correct: 84, e2_DFG_correct: 136, e2_DFG_revise: 100
+lower_limit: 0.15646940822467403
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['resnet', 'alexnet', 'squeezenet']
+bug_ids: [8, 8, 8]
+model_test_acc: [0.31489999999999996, 0.32, 0.4293]
+dfg_accuracy: 0.4183, baseline_accuracy: 0.3982, upper_limit: 0.5356
+absolute improvement rate: 0.0201, relative improvement rate: 0.1460
+absolute_wrong_1: 152, absolute_wrong_2: 124, absolute_wrong_3: 22
+absolute_wrong_12: 202, absolute_wrong_13: 86, absolute_wrong_23: 104
+all_correct: 378, all_wrong: 926
+e1: 298, e2: 392, e3: 926
+e1_baseline_correct: 298, e1_DFG_correct: 254, e1_DFG_revise: 0
+e2_baseline_correct: 118, e2_DFG_correct: 202, e2_DFG_revise: 136
+lower_limit: 0.18956870611835505
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['resnet', 'squeezenet', 'vgg16']
+bug_ids: [9, 9, 9]
+model_test_acc: [0.2217, 0.45439999999999997, 0.4905]
+dfg_accuracy: 0.4564, baseline_accuracy: 0.4594, upper_limit: 0.6058
+absolute improvement rate: -0.0030, relative improvement rate: -0.0205
+absolute_wrong_1: 374, absolute_wrong_2: 38, absolute_wrong_3: 24
+absolute_wrong_12: 226, absolute_wrong_13: 168, absolute_wrong_23: 38
+all_correct: 340, all_wrong: 786
+e1: 436, e2: 432, e3: 786
+e1_baseline_correct: 436, e1_DFG_correct: 384, e1_DFG_revise: 0
+e2_baseline_correct: 140, e2_DFG_correct: 186, e2_DFG_revise: 126
+lower_limit: 0.17051153460381144
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['squeezenet', 'resnet', 'alexnet']
+bug_ids: [10, 10, 10]
+model_test_acc: [0.499, 0.3992, 0.4473]
+dfg_accuracy: 0.4980, baseline_accuracy: 0.4784, upper_limit: 0.6199
+absolute improvement rate: 0.0196, relative improvement rate: 0.1383
+absolute_wrong_1: 61, absolute_wrong_2: 152, absolute_wrong_3: 80
+absolute_wrong_12: 102, absolute_wrong_13: 78, absolute_wrong_23: 186
+all_correct: 577, all_wrong: 758
+e1: 293, e2: 366, e3: 758
+e1_baseline_correct: 293, e1_DFG_correct: 252, e1_DFG_revise: 0
+e2_baseline_correct: 84, e2_DFG_correct: 164, e2_DFG_revise: 126
+lower_limit: 0.2893681043129388
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'squeezenet', 'resnet']
+bug_ids: [1, 0, 0]
+model_test_acc: [0.3761, 0.5125, 0.4052]
+dfg_accuracy: 0.4975, baseline_accuracy: 0.4644, upper_limit: 0.6048
+absolute improvement rate: 0.0331, relative improvement rate: 0.2357
+absolute_wrong_1: 132, absolute_wrong_2: 36, absolute_wrong_3: 116
+absolute_wrong_12: 96, absolute_wrong_13: 228, absolute_wrong_23: 52
+all_correct: 546, all_wrong: 788
+e1: 284, e2: 376, e3: 788
+e1_baseline_correct: 284, e1_DFG_correct: 262, e1_DFG_revise: 0
+e2_baseline_correct: 96, e2_DFG_correct: 184, e2_DFG_revise: 148
+lower_limit: 0.27382146439317956
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['squeezenet', 'resnet', 'densenet']
+bug_ids: [2, 0, 0]
+model_test_acc: [0.43329999999999996, 0.4052, 0.45840000000000003]
+dfg_accuracy: 0.4724, baseline_accuracy: 0.4654, upper_limit: 0.5948
+absolute improvement rate: 0.0070, relative improvement rate: 0.0543
+absolute_wrong_1: 118, absolute_wrong_2: 102, absolute_wrong_3: 66
+absolute_wrong_12: 136, absolute_wrong_13: 68, absolute_wrong_23: 138
+all_correct: 558, all_wrong: 808
+e1: 286, e2: 342, e3: 808
+e1_baseline_correct: 286, e1_DFG_correct: 230, e1_DFG_revise: 0
+e2_baseline_correct: 84, e2_DFG_correct: 154, e2_DFG_revise: 102
+lower_limit: 0.279839518555667
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'vgg16', 'resnet']
+bug_ids: [3, 0, 0]
+model_test_acc: [0.3119, 0.5196000000000001, 0.4052]
+dfg_accuracy: 0.5095, baseline_accuracy: 0.4493, upper_limit: 0.6128
+absolute improvement rate: 0.0602, relative improvement rate: 0.3681
+absolute_wrong_1: 212, absolute_wrong_2: 42, absolute_wrong_3: 76
+absolute_wrong_12: 98, absolute_wrong_13: 290, absolute_wrong_23: 46
+all_correct: 458, all_wrong: 772
+e1: 330, e2: 434, e3: 772
+e1_baseline_correct: 330, e1_DFG_correct: 292, e1_DFG_revise: 0
+e2_baseline_correct: 108, e2_DFG_correct: 266, e2_DFG_revise: 208
+lower_limit: 0.2296890672016048
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'vgg16', 'densenet']
+bug_ids: [4, 0, 0]
+model_test_acc: [0.2518, 0.5196000000000001, 0.45840000000000003]
+dfg_accuracy: 0.5226, baseline_accuracy: 0.4704, upper_limit: 0.6269
+absolute improvement rate: 0.0522, relative improvement rate: 0.3333
+absolute_wrong_1: 354, absolute_wrong_2: 30, absolute_wrong_3: 46
+absolute_wrong_12: 144, absolute_wrong_13: 250, absolute_wrong_23: 40
+all_correct: 386, all_wrong: 744
+e1: 430, e2: 434, e3: 744
+e1_baseline_correct: 430, e1_DFG_correct: 408, e1_DFG_revise: 0
+e2_baseline_correct: 122, e2_DFG_correct: 248, e2_DFG_revise: 162
+lower_limit: 0.19358074222668004
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['resnet', 'squeezenet', 'vgg16']
+bug_ids: [5, 0, 0]
+model_test_acc: [0.2297, 0.5125, 0.5196000000000001]
+dfg_accuracy: 0.5296, baseline_accuracy: 0.4824, upper_limit: 0.6269
+absolute improvement rate: 0.0471, relative improvement rate: 0.3264
+absolute_wrong_1: 426, absolute_wrong_2: 8, absolute_wrong_3: 22
+absolute_wrong_12: 198, absolute_wrong_13: 170, absolute_wrong_23: 22
+all_correct: 404, all_wrong: 744
+e1: 456, e2: 390, e3: 744
+e1_baseline_correct: 456, e1_DFG_correct: 444, e1_DFG_revise: 0
+e2_baseline_correct: 102, e2_DFG_correct: 208, e2_DFG_revise: 140
+lower_limit: 0.20260782347041123
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['squeezenet', 'alexnet', 'vgg16']
+bug_ids: [6, 0, 0]
+model_test_acc: [0.44329999999999997, 0.4524, 0.5196000000000001]
+dfg_accuracy: 0.5236, baseline_accuracy: 0.5135, upper_limit: 0.6379
+absolute improvement rate: 0.0100, relative improvement rate: 0.0806
+absolute_wrong_1: 110, absolute_wrong_2: 114, absolute_wrong_3: 54
+absolute_wrong_12: 176, absolute_wrong_13: 102, absolute_wrong_23: 80
+all_correct: 636, all_wrong: 722
+e1: 278, e2: 358, e3: 722
+e1_baseline_correct: 278, e1_DFG_correct: 232, e1_DFG_revise: 0
+e2_baseline_correct: 110, e2_DFG_correct: 176, e2_DFG_revise: 130
+lower_limit: 0.31895687061183553
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['densenet', 'resnet', 'alexnet']
+bug_ids: [7, 0, 0]
+model_test_acc: [0.40020000000000006, 0.4052, 0.4524]
+dfg_accuracy: 0.4443, baseline_accuracy: 0.4463, upper_limit: 0.5727
+absolute improvement rate: -0.0020, relative improvement rate: -0.0159
+absolute_wrong_1: 78, absolute_wrong_2: 78, absolute_wrong_3: 76
+absolute_wrong_12: 178, absolute_wrong_13: 88, absolute_wrong_23: 76
+all_correct: 568, all_wrong: 852
+e1: 232, e2: 342, e3: 852
+e1_baseline_correct: 232, e1_DFG_correct: 194, e1_DFG_revise: 0
+e2_baseline_correct: 90, e2_DFG_correct: 124, e2_DFG_revise: 92
+lower_limit: 0.2848545636910732
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'squeezenet', 'vgg16']
+bug_ids: [8, 0, 0]
+model_test_acc: [0.32, 0.5125, 0.5196000000000001]
+dfg_accuracy: 0.5316, baseline_accuracy: 0.4845, upper_limit: 0.6439
+absolute improvement rate: 0.0471, relative improvement rate: 0.2956
+absolute_wrong_1: 296, absolute_wrong_2: 18, absolute_wrong_3: 30
+absolute_wrong_12: 188, absolute_wrong_13: 162, absolute_wrong_23: 56
+all_correct: 534, all_wrong: 710
+e1: 344, e2: 406, e3: 710
+e1_baseline_correct: 344, e1_DFG_correct: 328, e1_DFG_revise: 0
+e2_baseline_correct: 88, e2_DFG_correct: 198, e2_DFG_revise: 144
+lower_limit: 0.2678034102306921
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['squeezenet', 'densenet', 'vgg16']
+bug_ids: [9, 0, 0]
+model_test_acc: [0.45439999999999997, 0.45840000000000003, 0.5196000000000001]
+dfg_accuracy: 0.5256, baseline_accuracy: 0.5155, upper_limit: 0.6540
+absolute improvement rate: 0.0100, relative improvement rate: 0.0725
+absolute_wrong_1: 120, absolute_wrong_2: 136, absolute_wrong_3: 56
+absolute_wrong_12: 160, absolute_wrong_13: 118, absolute_wrong_23: 94
+all_correct: 620, all_wrong: 690
+e1: 312, e2: 372, e3: 690
+e1_baseline_correct: 312, e1_DFG_correct: 274, e1_DFG_revise: 0
+e2_baseline_correct: 96, e2_DFG_correct: 154, e2_DFG_revise: 102
+lower_limit: 0.31093279839518556
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['densenet', 'resnet', 'alexnet']
+bug_ids: [10, 0, 0]
+model_test_acc: [0.42979999999999996, 0.4052, 0.4524]
+dfg_accuracy: 0.4529, baseline_accuracy: 0.4534, upper_limit: 0.5963
+absolute improvement rate: -0.0005, relative improvement rate: -0.0035
+absolute_wrong_1: 84, absolute_wrong_2: 90, absolute_wrong_3: 82
+absolute_wrong_12: 166, absolute_wrong_13: 82, absolute_wrong_23: 123
+all_correct: 562, all_wrong: 805
+e1: 256, e2: 371, e3: 805
+e1_baseline_correct: 256, e1_DFG_correct: 209, e1_DFG_revise: 0
+e2_baseline_correct: 86, e2_DFG_correct: 132, e2_DFG_revise: 89
+lower_limit: 0.2818455366098295
+==================================================

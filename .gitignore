@@ -1,0 +1,14 @@
+/.idea/
+/__pycache__/
+/mydataset/data/
+/mymodel/model/
+/mymodel/__pycache__/
+/mydataset/__pycache__/
+/input_information/
+/tmp/
+/envs_requirements/dl.tar.gz
+nohup.out
+/mymodel.zip
+/mydataset.zip
+/input_information.zip
+tmp_test.py

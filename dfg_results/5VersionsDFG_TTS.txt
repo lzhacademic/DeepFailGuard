@@ -1,0 +1,168 @@
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'resnet', 'alexnet', 'squeezenet', 'densenet']
+bug_ids: [0, 0, 0, 0, 0]
+model_test_acc: [0.9894, 0.9995, 0.9659, 0.9987999999999999, 0.9967]
+dfg_accuracy: 0.9993, baseline_accuracy: 0.9986, upper_limit: 0.9998
+absolute improvement rate: 0.0007, relative improvement rate: 0.6000
+==================================================
+==================================================
+Dataset: TTS
+Models: ['squeezenet', 'resnet', 'vgg16', 'densenet', 'alexnet']
+bug_ids: [1, 1, 1, 1, 1]
+model_test_acc: [0.972, 0.9871, 0.9934000000000001, 0.9995, 0.9601999999999999]
+dfg_accuracy: 0.9991, baseline_accuracy: 0.9976, upper_limit: 1.0000
+absolute improvement rate: 0.0014, relative improvement rate: 0.6000
+==================================================
+==================================================
+Dataset: TTS
+Models: ['resnet', 'vgg16', 'densenet', 'squeezenet', 'alexnet']
+bug_ids: [2, 2, 2, 2, 2]
+model_test_acc: [0.9598, 0.9819, 0.9972, 0.9664, 0.9689]
+dfg_accuracy: 0.9979, baseline_accuracy: 0.9965, upper_limit: 0.9998
+absolute improvement rate: 0.0014, relative improvement rate: 0.4286
+==================================================
+==================================================
+Dataset: TTS
+Models: ['squeezenet', 'alexnet', 'densenet', 'resnet', 'vgg16']
+bug_ids: [3, 3, 3, 3, 3]
+model_test_acc: [0.9765, 0.9732, 0.9984000000000001, 0.9954999999999999, 0.9899]
+dfg_accuracy: 0.9988, baseline_accuracy: 0.9974, upper_limit: 0.9998
+absolute improvement rate: 0.0014, relative improvement rate: 0.6000
+==================================================
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'squeezenet', 'resnet', 'densenet', 'alexnet']
+bug_ids: [4, 4, 4, 4, 4]
+model_test_acc: [0.9922, 0.9842, 0.9922, 0.9967, 0.9684999999999999]
+dfg_accuracy: 0.9988, baseline_accuracy: 0.9984, upper_limit: 1.0000
+absolute improvement rate: 0.0005, relative improvement rate: 0.2857
+==================================================
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'alexnet', 'densenet', 'resnet', 'squeezenet']
+bug_ids: [5, 5, 5, 5, 5]
+model_test_acc: [0.9786, 0.5501, 0.9856, 0.9772, 0.7988]
+dfg_accuracy: 0.9929, baseline_accuracy: 0.9889, upper_limit: 0.9991
+absolute improvement rate: 0.0040, relative improvement rate: 0.3953
+==================================================
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'resnet', 'alexnet', 'squeezenet', 'densenet']
+bug_ids: [6, 6, 6, 6, 6]
+model_test_acc: [0.9906, 0.9845, 0.9647, 0.9765, 0.9991]
+dfg_accuracy: 0.9988, baseline_accuracy: 0.9981, upper_limit: 0.9998
+absolute improvement rate: 0.0007, relative improvement rate: 0.4286
+==================================================
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'alexnet', 'resnet', 'squeezenet', 'densenet']
+bug_ids: [7, 7, 7, 7, 7]
+model_test_acc: [0.9821, 0.6769, 0.9868000000000001, 0.9802, 0.9991]
+dfg_accuracy: 0.9984, baseline_accuracy: 0.9953, upper_limit: 0.9998
+absolute improvement rate: 0.0031, relative improvement rate: 0.6842
+==================================================
+==================================================
+Dataset: TTS
+Models: ['densenet', 'alexnet', 'vgg16', 'squeezenet', 'resnet']
+bug_ids: [8, 8, 8, 8, 8]
+model_test_acc: [0.9882, 0.9708, 0.9456, 0.9754999999999999, 0.9473]
+dfg_accuracy: 0.9927, baseline_accuracy: 0.9929, upper_limit: 0.9986
+absolute improvement rate: -0.0002, relative improvement rate: -0.0417
+==================================================
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'densenet', 'alexnet', 'squeezenet', 'resnet']
+bug_ids: [9, 9, 9, 9, 9]
+model_test_acc: [0.9695999999999999, 0.9934000000000001, 0.9016, 0.9012, 0.9612]
+dfg_accuracy: 0.9906, baseline_accuracy: 0.9901, upper_limit: 0.9976
+absolute improvement rate: 0.0005, relative improvement rate: 0.0625
+==================================================
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'resnet', 'squeezenet', 'alexnet', 'densenet']
+bug_ids: [10, 10, 10, 10, 10]
+model_test_acc: [0.9892, 0.9993000000000001, 0.9986, 0.9659, 0.9925]
+dfg_accuracy: 0.9991, baseline_accuracy: 0.9986, upper_limit: 0.9998
+absolute improvement rate: 0.0005, relative improvement rate: 0.4000
+==================================================
+==================================================
+Dataset: TTS
+Models: ['alexnet', 'resnet', 'squeezenet', 'densenet', 'vgg16']
+bug_ids: [1, 0, 0, 0, 0]
+model_test_acc: [0.9601999999999999, 0.9995, 0.9987999999999999, 0.9967, 0.9894]
+dfg_accuracy: 0.9995, baseline_accuracy: 0.9984, upper_limit: 0.9998
+absolute improvement rate: 0.0012, relative improvement rate: 0.8333
+==================================================
+==================================================
+Dataset: TTS
+Models: ['alexnet', 'densenet', 'resnet', 'vgg16', 'squeezenet']
+bug_ids: [2, 0, 0, 0, 0]
+model_test_acc: [0.9689, 0.9967, 0.9995, 0.9894, 0.9987999999999999]
+dfg_accuracy: 0.9995, baseline_accuracy: 0.9986, upper_limit: 0.9998
+absolute improvement rate: 0.0009, relative improvement rate: 0.8000
+==================================================
+==================================================
+Dataset: TTS
+Models: ['alexnet', 'squeezenet', 'vgg16', 'resnet', 'densenet']
+bug_ids: [3, 0, 0, 0, 0]
+model_test_acc: [0.9732, 0.9987999999999999, 0.9894, 0.9995, 0.9967]
+dfg_accuracy: 0.9993, baseline_accuracy: 0.9984, upper_limit: 0.9998
+absolute improvement rate: 0.0009, relative improvement rate: 0.6667
+==================================================
+==================================================
+Dataset: TTS
+Models: ['vgg16', 'densenet', 'alexnet', 'resnet', 'squeezenet']
+bug_ids: [4, 0, 0, 0, 0]
+model_test_acc: [0.9922, 0.9967, 0.9659, 0.9995, 0.9987999999999999]
+dfg_accuracy: 0.9993, baseline_accuracy: 0.9988, upper_limit: 0.9998
+absolute improvement rate: 0.0005, relative improvement rate: 0.5000
+==================================================
+==================================================
+Dataset: TTS
+Models: ['alexnet', 'vgg16', 'resnet', 'densenet', 'squeezenet']
+bug_ids: [5, 0, 0, 0, 0]
+model_test_acc: [0.5501, 0.9894, 0.9995, 0.9967, 0.9987999999999999]
+dfg_accuracy: 0.9993, baseline_accuracy: 0.9988, upper_limit: 0.9998
+absolute improvement rate: 0.0005, relative improvement rate: 0.5000
+==================================================
+==================================================
+Dataset: TTS
+Models: ['squeezenet', 'vgg16', 'alexnet', 'resnet', 'densenet']
+bug_ids: [6, 0, 0, 0, 0]
+model_test_acc: [0.9765, 0.9894, 0.9659, 0.9995, 0.9967]
+dfg_accuracy: 0.9993, baseline_accuracy: 0.9969, upper_limit: 0.9998
+absolute improvement rate: 0.0024, relative improvement rate: 0.8333
+==================================================
+==================================================
+Dataset: TTS
+Models: ['squeezenet', 'alexnet', 'resnet', 'vgg16', 'densenet']
+bug_ids: [7, 0, 0, 0, 0]
+model_test_acc: [0.9802, 0.9659, 0.9995, 0.9894, 0.9967]
+dfg_accuracy: 0.9995, baseline_accuracy: 0.9967, upper_limit: 0.9998
+absolute improvement rate: 0.0028, relative improvement rate: 0.9231
+==================================================
+==================================================
+Dataset: TTS
+Models: ['squeezenet', 'resnet', 'densenet', 'vgg16', 'alexnet']
+bug_ids: [8, 0, 0, 0, 0]
+model_test_acc: [0.9754999999999999, 0.9995, 0.9967, 0.9894, 0.9659]
+dfg_accuracy: 0.9995, baseline_accuracy: 0.9960, upper_limit: 0.9998
+absolute improvement rate: 0.0035, relative improvement rate: 0.9375
+==================================================
+==================================================
+Dataset: TTS
+Models: ['resnet', 'vgg16', 'alexnet', 'squeezenet', 'densenet']
+bug_ids: [9, 0, 0, 0, 0]
+model_test_acc: [0.9612, 0.9894, 0.9659, 0.9987999999999999, 0.9967]
+dfg_accuracy: 0.9976, baseline_accuracy: 0.9981, upper_limit: 0.9995
+absolute improvement rate: -0.0005, relative improvement rate: -0.3333
+==================================================
+==================================================
+Dataset: TTS
+Models: ['resnet', 'squeezenet', 'densenet', 'vgg16', 'alexnet']
+bug_ids: [10, 0, 0, 0, 0]
+model_test_acc: [0.9993000000000001, 0.9987999999999999, 0.9967, 0.9894, 0.9659]
+dfg_accuracy: 0.9993, baseline_accuracy: 0.9984, upper_limit: 0.9998
+absolute improvement rate: 0.0009, relative improvement rate: 0.6667
+==================================================

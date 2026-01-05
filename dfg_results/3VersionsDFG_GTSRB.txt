@@ -1,0 +1,315 @@
+==================================================
+Dataset: GTSRB
+Models: ['densenet', 'alexnet', 'squeezenet']
+bug_ids: [0, 0, 0]
+model_test_acc: [0.8134, 0.9096, 0.899]
+dfg_accuracy: 0.9280, baseline_accuracy: 0.9226, upper_limit: 0.9663
+absolute improvement rate: 0.0055, relative improvement rate: 0.1250
+absolute_wrong_1: 1397, absolute_wrong_2: 273, absolute_wrong_3: 359
+absolute_wrong_12: 243, absolute_wrong_13: 292, absolute_wrong_23: 200
+all_correct: 9440, all_wrong: 426
+e1: 2029, e2: 735, e3: 426
+e1_baseline_correct: 2029, e1_DFG_correct: 1899, e1_DFG_revise: 0
+e2_baseline_correct: 183, e2_DFG_correct: 382, e2_DFG_revise: 288
+lower_limit: 0.7474267616785432
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['densenet', 'squeezenet', 'alexnet']
+bug_ids: [1, 1, 1]
+model_test_acc: [0.8803, 0.8704000000000001, 0.8726999999999999]
+dfg_accuracy: 0.9153, baseline_accuracy: 0.9198, upper_limit: 0.9666
+absolute improvement rate: -0.0045, relative improvement rate: -0.0964
+absolute_wrong_1: 607, absolute_wrong_2: 826, absolute_wrong_3: 623
+absolute_wrong_12: 154, absolute_wrong_13: 328, absolute_wrong_23: 235
+all_correct: 9435, all_wrong: 422
+e1: 2056, e2: 717, e3: 422
+e1_baseline_correct: 2056, e1_DFG_correct: 1815, e1_DFG_revise: 0
+e2_baseline_correct: 126, e2_DFG_correct: 310, e2_DFG_revise: 246
+lower_limit: 0.7470308788598575
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['vgg16', 'densenet', 'resnet']
+bug_ids: [2, 2, 2]
+model_test_acc: [0.9692000000000001, 0.8495, 0.9551000000000001]
+dfg_accuracy: 0.9779, baseline_accuracy: 0.9629, upper_limit: 0.9903
+absolute improvement rate: 0.0150, relative improvement rate: 0.5476
+absolute_wrong_1: 111, absolute_wrong_2: 1417, absolute_wrong_3: 144
+absolute_wrong_12: 108, absolute_wrong_13: 48, absolute_wrong_23: 254
+all_correct: 10426, all_wrong: 122
+e1: 1672, e2: 410, e3: 122
+e1_baseline_correct: 1672, e1_DFG_correct: 1638, e1_DFG_revise: 0
+e2_baseline_correct: 63, e2_DFG_correct: 287, e2_DFG_revise: 250
+lower_limit: 0.825494853523357
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['alexnet', 'vgg16', 'resnet']
+bug_ids: [3, 3, 3]
+model_test_acc: [0.9111, 0.9825, 0.9618000000000001]
+dfg_accuracy: 0.9827, baseline_accuracy: 0.9797, upper_limit: 0.9936
+absolute improvement rate: 0.0030, relative improvement rate: 0.2159
+absolute_wrong_1: 830, absolute_wrong_2: 34, absolute_wrong_3: 228
+absolute_wrong_12: 72, absolute_wrong_13: 140, absolute_wrong_23: 34
+all_correct: 11211, all_wrong: 81
+e1: 1092, e2: 246, e3: 81
+e1_baseline_correct: 1092, e1_DFG_correct: 1037, e1_DFG_revise: 0
+e2_baseline_correct: 70, e2_DFG_correct: 163, e2_DFG_revise: 111
+lower_limit: 0.8876484560570072
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['squeezenet', 'resnet', 'alexnet']
+bug_ids: [4, 4, 4]
+model_test_acc: [0.9175, 0.9609000000000001, 0.9085]
+dfg_accuracy: 0.9632, baseline_accuracy: 0.9578, upper_limit: 0.9850
+absolute improvement rate: 0.0054, relative improvement rate: 0.1977
+absolute_wrong_1: 486, absolute_wrong_2: 151, absolute_wrong_3: 605
+absolute_wrong_12: 80, absolute_wrong_13: 288, absolute_wrong_23: 74
+all_correct: 10757, all_wrong: 189
+e1: 1242, e2: 442, e3: 189
+e1_baseline_correct: 1242, e1_DFG_correct: 1133, e1_DFG_revise: 0
+e2_baseline_correct: 98, e2_DFG_correct: 275, e2_DFG_revise: 204
+lower_limit: 0.8517022961203484
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['squeezenet', 'resnet', 'densenet']
+bug_ids: [5, 5, 5]
+model_test_acc: [0.7568, 0.9063, 0.7651]
+dfg_accuracy: 0.8930, baseline_accuracy: 0.8700, upper_limit: 0.9606
+absolute improvement rate: 0.0230, relative improvement rate: 0.2541
+absolute_wrong_1: 1619, absolute_wrong_2: 190, absolute_wrong_3: 1227
+absolute_wrong_12: 103, absolute_wrong_13: 852, absolute_wrong_23: 393
+all_correct: 7749, all_wrong: 497
+e1: 3036, e2: 1348, e3: 497
+e1_baseline_correct: 3036, e1_DFG_correct: 2815, e1_DFG_revise: 0
+e2_baseline_correct: 203, e2_DFG_correct: 715, e2_DFG_revise: 585
+lower_limit: 0.6135391923990499
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['alexnet', 'resnet', 'vgg16']
+bug_ids: [6, 6, 6]
+model_test_acc: [0.8886, 0.9267, 0.977]
+dfg_accuracy: 0.9712, baseline_accuracy: 0.9627, upper_limit: 0.9852
+absolute improvement rate: 0.0085, relative improvement rate: 0.3768
+absolute_wrong_1: 856, absolute_wrong_2: 407, absolute_wrong_3: 15
+absolute_wrong_12: 304, absolute_wrong_13: 60, absolute_wrong_23: 29
+all_correct: 10772, all_wrong: 187
+e1: 1278, e2: 393, e3: 187
+e1_baseline_correct: 1278, e1_DFG_correct: 1221, e1_DFG_revise: 0
+e2_baseline_correct: 109, e2_DFG_correct: 273, e2_DFG_revise: 197
+lower_limit: 0.8528899445764054
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['densenet', 'resnet', 'alexnet']
+bug_ids: [7, 7, 7]
+model_test_acc: [0.9122, 0.9511, 0.4719]
+dfg_accuracy: 0.9508, baseline_accuracy: 0.9222, upper_limit: 0.9776
+absolute improvement rate: 0.0286, relative improvement rate: 0.5165
+absolute_wrong_1: 130, absolute_wrong_2: 85, absolute_wrong_3: 5470
+absolute_wrong_12: 16, absolute_wrong_13: 682, absolute_wrong_23: 234
+all_correct: 5730, all_wrong: 283
+e1: 5685, e2: 932, e3: 283
+e1_baseline_correct: 5685, e1_DFG_correct: 5640, e1_DFG_revise: 0
+e2_baseline_correct: 233, e2_DFG_correct: 639, e2_DFG_revise: 455
+lower_limit: 0.45368171021377673
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['densenet', 'squeezenet', 'vgg16']
+bug_ids: [8, 8, 8]
+model_test_acc: [0.6995999999999999, 0.8873000000000001, 0.9148999999999999]
+dfg_accuracy: 0.9298, baseline_accuracy: 0.9107, upper_limit: 0.9668
+absolute improvement rate: 0.0192, relative improvement rate: 0.3413
+absolute_wrong_1: 2518, absolute_wrong_2: 389, absolute_wrong_3: 248
+absolute_wrong_12: 531, absolute_wrong_13: 322, absolute_wrong_23: 84
+all_correct: 8119, all_wrong: 419
+e1: 3155, e2: 937, e3: 419
+e1_baseline_correct: 3155, e1_DFG_correct: 3012, e1_DFG_revise: 0
+e2_baseline_correct: 228, e2_DFG_correct: 613, e2_DFG_revise: 486
+lower_limit: 0.6428345209817894
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['alexnet', 'densenet', 'vgg16']
+bug_ids: [9, 9, 9]
+model_test_acc: [0.8732, 0.8453, 0.9619]
+dfg_accuracy: 0.9515, baseline_accuracy: 0.9365, upper_limit: 0.9850
+absolute improvement rate: 0.0150, relative improvement rate: 0.3100
+absolute_wrong_1: 681, absolute_wrong_2: 1088, absolute_wrong_3: 77
+absolute_wrong_12: 597, absolute_wrong_13: 135, absolute_wrong_23: 80
+all_correct: 9783, all_wrong: 189
+e1: 1846, e2: 812, e3: 189
+e1_baseline_correct: 1846, e1_DFG_correct: 1692, e1_DFG_revise: 0
+e2_baseline_correct: 199, e2_DFG_correct: 543, e2_DFG_revise: 414
+lower_limit: 0.77458432304038
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['densenet', 'squeezenet', 'vgg16']
+bug_ids: [10, 10, 10]
+model_test_acc: [0.639, 0.8532, 0.9378]
+dfg_accuracy: 0.9294, baseline_accuracy: 0.8964, upper_limit: 0.9591
+absolute improvement rate: 0.0330, relative improvement rate: 0.5259
+absolute_wrong_1: 3006, absolute_wrong_2: 387, absolute_wrong_3: 49
+absolute_wrong_12: 884, absolute_wrong_13: 152, absolute_wrong_23: 68
+all_correct: 7568, all_wrong: 516
+e1: 3442, e2: 1104, e3: 516
+e1_baseline_correct: 3442, e1_DFG_correct: 3344, e1_DFG_revise: 0
+e2_baseline_correct: 311, e2_DFG_correct: 826, e2_DFG_revise: 590
+lower_limit: 0.5992082343626287
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['alexnet', 'resnet', 'vgg16']
+bug_ids: [1, 0, 0]
+model_test_acc: [0.8726999999999999, 0.9817, 0.9665]
+dfg_accuracy: 0.9791, baseline_accuracy: 0.9738, upper_limit: 0.9956
+absolute improvement rate: 0.0053, relative improvement rate: 0.2436
+absolute_wrong_1: 1217, absolute_wrong_2: 60, absolute_wrong_3: 97
+absolute_wrong_12: 90, absolute_wrong_13: 245, absolute_wrong_23: 25
+all_correct: 10840, all_wrong: 56
+e1: 1374, e2: 360, e3: 56
+e1_baseline_correct: 1374, e1_DFG_correct: 1311, e1_DFG_revise: 0
+e2_baseline_correct: 85, e2_DFG_correct: 215, e2_DFG_revise: 160
+lower_limit: 0.8582739509105305
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['alexnet', 'densenet', 'vgg16']
+bug_ids: [2, 0, 0]
+model_test_acc: [0.9012, 0.8134, 0.9665]
+dfg_accuracy: 0.9609, baseline_accuracy: 0.9455, upper_limit: 0.9821
+absolute improvement rate: 0.0154, relative improvement rate: 0.4199
+absolute_wrong_1: 526, absolute_wrong_2: 1596, absolute_wrong_3: 51
+absolute_wrong_12: 443, absolute_wrong_13: 53, absolute_wrong_23: 93
+all_correct: 9642, all_wrong: 226
+e1: 2173, e2: 589, e3: 226
+e1_baseline_correct: 2173, e1_DFG_correct: 2084, e1_DFG_revise: 0
+e2_baseline_correct: 127, e2_DFG_correct: 410, e2_DFG_revise: 312
+lower_limit: 0.7634204275534442
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['alexnet', 'densenet', 'resnet']
+bug_ids: [3, 0, 0]
+model_test_acc: [0.9111, 0.8134, 0.9817]
+dfg_accuracy: 0.9784, baseline_accuracy: 0.9543, upper_limit: 0.9914
+absolute improvement rate: 0.0241, relative improvement rate: 0.6496
+absolute_wrong_1: 432, absolute_wrong_2: 1678, absolute_wrong_3: 49
+absolute_wrong_12: 540, absolute_wrong_13: 42, absolute_wrong_23: 31
+all_correct: 9749, all_wrong: 109
+e1: 2159, e2: 613, e3: 109
+e1_baseline_correct: 2159, e1_DFG_correct: 2108, e1_DFG_revise: 0
+e2_baseline_correct: 145, e2_DFG_correct: 500, e2_DFG_revise: 389
+lower_limit: 0.7718923198733175
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['densenet', 'vgg16', 'resnet']
+bug_ids: [4, 0, 0]
+model_test_acc: [0.8869, 0.9665, 0.9817]
+dfg_accuracy: 0.9799, baseline_accuracy: 0.9741, upper_limit: 0.9956
+absolute improvement rate: 0.0058, relative improvement rate: 0.2694
+absolute_wrong_1: 1060, absolute_wrong_2: 114, absolute_wrong_3: 66
+absolute_wrong_12: 228, absolute_wrong_13: 84, absolute_wrong_23: 25
+all_correct: 10997, all_wrong: 56
+e1: 1240, e2: 337, e3: 56
+e1_baseline_correct: 1240, e1_DFG_correct: 1174, e1_DFG_revise: 0
+e2_baseline_correct: 66, e2_DFG_correct: 205, e2_DFG_revise: 166
+lower_limit: 0.8707046714172605
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['squeezenet', 'vgg16', 'densenet']
+bug_ids: [5, 0, 0]
+model_test_acc: [0.7568, 0.9665, 0.8134]
+dfg_accuracy: 0.9633, baseline_accuracy: 0.9134, upper_limit: 0.9812
+absolute improvement rate: 0.0500, relative improvement rate: 0.7371
+absolute_wrong_1: 1867, absolute_wrong_2: 37, absolute_wrong_3: 1140
+absolute_wrong_12: 67, absolute_wrong_13: 899, absolute_wrong_23: 81
+all_correct: 8301, all_wrong: 238
+e1: 3044, e2: 1047, e3: 238
+e1_baseline_correct: 3044, e1_DFG_correct: 2973, e1_DFG_revise: 0
+e2_baseline_correct: 191, e2_DFG_correct: 893, e2_DFG_revise: 723
+lower_limit: 0.6572446555819478
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['resnet', 'vgg16', 'alexnet']
+bug_ids: [6, 0, 0]
+model_test_acc: [0.9267, 0.9665, 0.9096]
+dfg_accuracy: 0.9664, baseline_accuracy: 0.9610, upper_limit: 0.9865
+absolute improvement rate: 0.0054, relative improvement rate: 0.2118
+absolute_wrong_1: 433, absolute_wrong_2: 90, absolute_wrong_3: 618
+absolute_wrong_12: 66, absolute_wrong_13: 257, absolute_wrong_23: 96
+all_correct: 10899, all_wrong: 171
+e1: 1141, e2: 419, e3: 171
+e1_baseline_correct: 1141, e1_DFG_correct: 1059, e1_DFG_revise: 0
+e2_baseline_correct: 98, e2_DFG_correct: 248, e2_DFG_revise: 183
+lower_limit: 0.8629453681710214
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['resnet', 'squeezenet', 'densenet']
+bug_ids: [7, 0, 0]
+model_test_acc: [0.9511, 0.899, 0.8134]
+dfg_accuracy: 0.9511, baseline_accuracy: 0.9387, upper_limit: 0.9817
+absolute improvement rate: 0.0124, relative improvement rate: 0.2873
+absolute_wrong_1: 149, absolute_wrong_2: 481, absolute_wrong_3: 1480
+absolute_wrong_12: 78, absolute_wrong_13: 160, absolute_wrong_23: 487
+all_correct: 9564, all_wrong: 231
+e1: 2110, e2: 725, e3: 231
+e1_baseline_correct: 2110, e1_DFG_correct: 1994, e1_DFG_revise: 0
+e2_baseline_correct: 182, e2_DFG_correct: 454, e2_DFG_revise: 350
+lower_limit: 0.7572446555819478
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['squeezenet', 'resnet', 'densenet']
+bug_ids: [8, 0, 0]
+model_test_acc: [0.8873000000000001, 0.9817, 0.8134]
+dfg_accuracy: 0.9778, baseline_accuracy: 0.9460, upper_limit: 0.9917
+absolute improvement rate: 0.0318, relative improvement rate: 0.6967
+absolute_wrong_1: 564, absolute_wrong_2: 52, absolute_wrong_3: 1503
+absolute_wrong_12: 39, absolute_wrong_13: 715, absolute_wrong_23: 35
+all_correct: 9617, all_wrong: 105
+e1: 2119, e2: 789, e3: 105
+e1_baseline_correct: 2119, e1_DFG_correct: 2078, e1_DFG_revise: 0
+e2_baseline_correct: 212, e2_DFG_correct: 655, e2_DFG_revise: 492
+lower_limit: 0.7614410134600158
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['resnet', 'squeezenet', 'alexnet']
+bug_ids: [9, 0, 0]
+model_test_acc: [0.9184, 0.899, 0.9096]
+dfg_accuracy: 0.9476, baseline_accuracy: 0.9388, upper_limit: 0.9789
+absolute improvement rate: 0.0088, relative improvement rate: 0.2189
+absolute_wrong_1: 471, absolute_wrong_2: 489, absolute_wrong_3: 384
+absolute_wrong_12: 162, absolute_wrong_13: 132, absolute_wrong_23: 360
+all_correct: 10366, all_wrong: 266
+e1: 1344, e2: 654, e3: 266
+e1_baseline_correct: 1344, e1_DFG_correct: 1234, e1_DFG_revise: 0
+e2_baseline_correct: 147, e2_DFG_correct: 368, e2_DFG_revise: 287
+lower_limit: 0.820744259699129
+==================================================
+==================================================
+Dataset: GTSRB
+Models: ['vgg16', 'resnet', 'squeezenet']
+bug_ids: [10, 0, 0]
+model_test_acc: [0.9378, 0.9817, 0.899]
+dfg_accuracy: 0.9787, baseline_accuracy: 0.9654, upper_limit: 0.9938
+absolute improvement rate: 0.0133, relative improvement rate: 0.4680
+absolute_wrong_1: 321, absolute_wrong_2: 68, absolute_wrong_3: 774
+absolute_wrong_12: 23, absolute_wrong_13: 363, absolute_wrong_23: 62
+all_correct: 10941, all_wrong: 78
+e1: 1163, e2: 448, e3: 78
+e1_baseline_correct: 1163, e1_DFG_correct: 1109, e1_DFG_revise: 0
+e2_baseline_correct: 89, e2_DFG_correct: 311, e2_DFG_revise: 249
+lower_limit: 0.866270783847981
+==================================================

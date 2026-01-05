@@ -1,0 +1,152 @@
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'squeezenet', 'resnet', 'vgg16', 'densenet']
+bug_ids: [0, 0, 0, 0, 0]
+model_test_acc: [0.4524, 0.5125, 0.4052, 0.5196000000000001, 0.45840000000000003]
+dfg_accuracy: 0.5316, baseline_accuracy: 0.5416, upper_limit: 0.7161
+absolute improvement rate: -0.0100, relative improvement rate: -0.0575
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['densenet', 'squeezenet', 'resnet', 'alexnet', 'vgg16']
+bug_ids: [1, 1, 1, 1, 1]
+model_test_acc: [0.44329999999999997, 0.4594, 0.4353, 0.3761, 0.5537]
+dfg_accuracy: 0.5537, baseline_accuracy: 0.5145, upper_limit: 0.7011
+absolute improvement rate: 0.0391, relative improvement rate: 0.2097
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['squeezenet', 'resnet', 'alexnet', 'densenet', 'vgg16']
+bug_ids: [2, 2, 2, 2, 2]
+model_test_acc: [0.43329999999999996, 0.348, 0.3159, 0.42729999999999996, 0.47840000000000005]
+dfg_accuracy: 0.4824, baseline_accuracy: 0.4885, upper_limit: 0.6670
+absolute improvement rate: -0.0060, relative improvement rate: -0.0337
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'densenet', 'vgg16', 'squeezenet', 'resnet']
+bug_ids: [3, 3, 3, 3, 3]
+model_test_acc: [0.3119, 0.4443, 0.5246, 0.46140000000000003, 0.3591]
+dfg_accuracy: 0.5236, baseline_accuracy: 0.5105, upper_limit: 0.6881
+absolute improvement rate: 0.0130, relative improvement rate: 0.0734
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'squeezenet', 'resnet', 'densenet', 'vgg16']
+bug_ids: [4, 4, 4, 4, 4]
+model_test_acc: [0.2518, 0.45740000000000003, 0.32299999999999995, 0.44380000000000003, 0.5507]
+dfg_accuracy: 0.5396, baseline_accuracy: 0.5055, upper_limit: 0.6961
+absolute improvement rate: 0.0341, relative improvement rate: 0.1789
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['densenet', 'squeezenet', 'vgg16', 'alexnet', 'resnet']
+bug_ids: [6, 6, 6, 6, 6]
+model_test_acc: [0.43229999999999996, 0.44329999999999997, 0.5617, 0.3029, 0.348]
+dfg_accuracy: 0.5186, baseline_accuracy: 0.4985, upper_limit: 0.7041
+absolute improvement rate: 0.0201, relative improvement rate: 0.0976
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['resnet', 'alexnet', 'squeezenet', 'vgg16', 'densenet']
+bug_ids: [8, 8, 8, 8, 8]
+model_test_acc: [0.31489999999999996, 0.32, 0.4293, 0.5998, 0.3771]
+dfg_accuracy: 0.5466, baseline_accuracy: 0.4824, upper_limit: 0.7282
+absolute improvement rate: 0.0642, relative improvement rate: 0.2612
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['resnet', 'squeezenet', 'vgg16', 'alexnet', 'densenet']
+bug_ids: [9, 9, 9, 9, 9]
+model_test_acc: [0.2217, 0.45439999999999997, 0.4905, 0.24170000000000003, 0.3912]
+dfg_accuracy: 0.4714, baseline_accuracy: 0.4654, upper_limit: 0.6610
+absolute improvement rate: 0.0060, relative improvement rate: 0.0308
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['squeezenet', 'resnet', 'alexnet', 'densenet', 'vgg16']
+bug_ids: [10, 10, 10, 10, 10]
+model_test_acc: [0.499, 0.3992, 0.4473, 0.42979999999999996, 0.51]
+dfg_accuracy: 0.5206, baseline_accuracy: 0.5301, upper_limit: 0.6911
+absolute improvement rate: -0.0095, relative improvement rate: -0.0592
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'squeezenet', 'resnet', 'densenet', 'vgg16']
+bug_ids: [1, 0, 0, 0, 0]
+model_test_acc: [0.3761, 0.5125, 0.4052, 0.45840000000000003, 0.5196000000000001]
+dfg_accuracy: 0.5276, baseline_accuracy: 0.5216, upper_limit: 0.7091
+absolute improvement rate: 0.0060, relative improvement rate: 0.0321
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['squeezenet', 'resnet', 'densenet', 'vgg16', 'alexnet']
+bug_ids: [2, 0, 0, 0, 0]
+model_test_acc: [0.43329999999999996, 0.4052, 0.45840000000000003, 0.5196000000000001, 0.4524]
+dfg_accuracy: 0.5095, baseline_accuracy: 0.5296, upper_limit: 0.7031
+absolute improvement rate: -0.0201, relative improvement rate: -0.1156
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'vgg16', 'resnet', 'squeezenet', 'densenet']
+bug_ids: [3, 0, 0, 0, 0]
+model_test_acc: [0.3119, 0.5196000000000001, 0.4052, 0.5125, 0.45840000000000003]
+dfg_accuracy: 0.5246, baseline_accuracy: 0.5226, upper_limit: 0.7031
+absolute improvement rate: 0.0020, relative improvement rate: 0.0111
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'vgg16', 'densenet', 'squeezenet', 'resnet']
+bug_ids: [4, 0, 0, 0, 0]
+model_test_acc: [0.2518, 0.5196000000000001, 0.45840000000000003, 0.5125, 0.4052]
+dfg_accuracy: 0.5246, baseline_accuracy: 0.5206, upper_limit: 0.7021
+absolute improvement rate: 0.0040, relative improvement rate: 0.0221
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['resnet', 'squeezenet', 'vgg16', 'alexnet', 'densenet']
+bug_ids: [5, 0, 0, 0, 0]
+model_test_acc: [0.2297, 0.5125, 0.5196000000000001, 0.4524, 0.45840000000000003]
+dfg_accuracy: 0.5366, baseline_accuracy: 0.5216, upper_limit: 0.7001
+absolute improvement rate: 0.0150, relative improvement rate: 0.0843
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['squeezenet', 'alexnet', 'vgg16', 'densenet', 'resnet']
+bug_ids: [6, 0, 0, 0, 0]
+model_test_acc: [0.44329999999999997, 0.4524, 0.5196000000000001, 0.45840000000000003, 0.4052]
+dfg_accuracy: 0.5145, baseline_accuracy: 0.5256, upper_limit: 0.7021
+absolute improvement rate: -0.0110, relative improvement rate: -0.0625
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['densenet', 'resnet', 'alexnet', 'squeezenet', 'vgg16']
+bug_ids: [7, 0, 0, 0, 0]
+model_test_acc: [0.40020000000000006, 0.4052, 0.4524, 0.5125, 0.5196000000000001]
+dfg_accuracy: 0.5256, baseline_accuracy: 0.5196, upper_limit: 0.7031
+absolute improvement rate: 0.0060, relative improvement rate: 0.0328
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['alexnet', 'squeezenet', 'vgg16', 'densenet', 'resnet']
+bug_ids: [8, 0, 0, 0, 0]
+model_test_acc: [0.32, 0.5125, 0.5196000000000001, 0.45840000000000003, 0.4052]
+dfg_accuracy: 0.5266, baseline_accuracy: 0.5105, upper_limit: 0.7081
+absolute improvement rate: 0.0160, relative improvement rate: 0.0812
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['squeezenet', 'densenet', 'vgg16', 'resnet', 'alexnet']
+bug_ids: [9, 0, 0, 0, 0]
+model_test_acc: [0.45439999999999997, 0.45840000000000003, 0.5196000000000001, 0.4052, 0.4524]
+dfg_accuracy: 0.5135, baseline_accuracy: 0.5336, upper_limit: 0.7101
+absolute improvement rate: -0.0201, relative improvement rate: -0.1136
+==================================================
+==================================================
+Dataset: CTSD
+Models: ['densenet', 'resnet', 'alexnet', 'vgg16', 'squeezenet']
+bug_ids: [10, 0, 0, 0, 0]
+model_test_acc: [0.42979999999999996, 0.4052, 0.4524, 0.5196000000000001, 0.5125]
+dfg_accuracy: 0.5256, baseline_accuracy: 0.5426, upper_limit: 0.7111
+absolute improvement rate: -0.0171, relative improvement rate: -0.1012
+==================================================

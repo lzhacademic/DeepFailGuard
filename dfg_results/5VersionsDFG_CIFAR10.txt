@@ -1,0 +1,184 @@
+==================================================
+Dataset: CIFAR10
+Models: ['resnet', 'alexnet', 'squeezenet', 'vgg16', 'densenet']
+bug_ids: [0, 0, 0, 0, 0]
+model_test_acc: [0.8016, 0.7853, 0.8040999999999999, 0.7992, 0.8608]
+dfg_accuracy: 0.8731, baseline_accuracy: 0.8665, upper_limit: 0.9612
+absolute improvement rate: 0.0066, relative improvement rate: 0.0697
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['alexnet', 'densenet', 'squeezenet', 'resnet', 'vgg16']
+bug_ids: [1, 1, 1, 1, 1]
+model_test_acc: [0.7195, 0.8297, 0.7975, 0.7837000000000001, 0.7985]
+dfg_accuracy: 0.8626, baseline_accuracy: 0.8519, upper_limit: 0.9565
+absolute improvement rate: 0.0107, relative improvement rate: 0.1023
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['squeezenet', 'vgg16', 'resnet', 'alexnet', 'densenet']
+bug_ids: [2, 2, 2, 2, 2]
+model_test_acc: [0.7963, 0.8194, 0.6715000000000001, 0.7073999999999999, 0.8456999999999999]
+dfg_accuracy: 0.8657, baseline_accuracy: 0.8560, upper_limit: 0.9617
+absolute improvement rate: 0.0097, relative improvement rate: 0.0918
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['alexnet', 'densenet', 'squeezenet', 'resnet', 'vgg16']
+bug_ids: [3, 3, 3, 3, 3]
+model_test_acc: [0.7284, 0.8208, 0.7925, 0.7613, 0.8136]
+dfg_accuracy: 0.8599, baseline_accuracy: 0.8615, upper_limit: 0.9612
+absolute improvement rate: -0.0016, relative improvement rate: -0.0160
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['squeezenet', 'vgg16', 'resnet', 'densenet', 'alexnet']
+bug_ids: [4, 4, 4, 4, 4]
+model_test_acc: [0.7907, 0.7979, 0.7047, 0.8402, 0.7487]
+dfg_accuracy: 0.8460, baseline_accuracy: 0.8436, upper_limit: 0.9527
+absolute improvement rate: 0.0024, relative improvement rate: 0.0220
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['resnet', 'densenet', 'squeezenet', 'vgg16', 'alexnet']
+bug_ids: [5, 5, 5, 5, 5]
+model_test_acc: [0.684, 0.7288, 0.6022, 0.7939, 0.6412]
+dfg_accuracy: 0.8089, baseline_accuracy: 0.7875, upper_limit: 0.9493
+absolute improvement rate: 0.0214, relative improvement rate: 0.1323
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['densenet', 'alexnet', 'resnet', 'squeezenet', 'vgg16']
+bug_ids: [6, 6, 6, 6, 6]
+model_test_acc: [0.8099, 0.6893, 0.7666, 0.7903, 0.7909]
+dfg_accuracy: 0.8514, baseline_accuracy: 0.8484, upper_limit: 0.9587
+absolute improvement rate: 0.0030, relative improvement rate: 0.0272
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['resnet', 'squeezenet', 'alexnet', 'vgg16', 'densenet']
+bug_ids: [7, 7, 7, 7, 7]
+model_test_acc: [0.7021, 0.7964, 0.6829000000000001, 0.7934, 0.7587]
+dfg_accuracy: 0.8414, baseline_accuracy: 0.8333, upper_limit: 0.9545
+absolute improvement rate: 0.0081, relative improvement rate: 0.0668
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['squeezenet', 'densenet', 'resnet', 'vgg16', 'alexnet']
+bug_ids: [8, 8, 8, 8, 8]
+model_test_acc: [0.7648, 0.7376999999999999, 0.6953, 0.7317, 0.6285000000000001]
+dfg_accuracy: 0.8210, baseline_accuracy: 0.8182, upper_limit: 0.9511
+absolute improvement rate: 0.0028, relative improvement rate: 0.0211
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['vgg16', 'resnet', 'squeezenet', 'densenet', 'alexnet']
+bug_ids: [9, 9, 9, 9, 9]
+model_test_acc: [0.7404999999999999, 0.40549999999999997, 0.7129000000000001, 0.5852, 0.4509]
+dfg_accuracy: 0.7541, baseline_accuracy: 0.7023, upper_limit: 0.9082
+absolute improvement rate: 0.0518, relative improvement rate: 0.2516
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['squeezenet', 'alexnet', 'vgg16', 'resnet', 'densenet']
+bug_ids: [10, 10, 10, 10, 10]
+model_test_acc: [0.7336, 0.7706999999999999, 0.7615000000000001, 0.7498999999999999, 0.7815000000000001]
+dfg_accuracy: 0.8266, baseline_accuracy: 0.8278, upper_limit: 0.9410
+absolute improvement rate: -0.0012, relative improvement rate: -0.0106
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['alexnet', 'vgg16', 'resnet', 'densenet', 'squeezenet']
+bug_ids: [11, 11, 11, 11, 11]
+model_test_acc: [0.6541, 0.6517000000000001, 0.6833, 0.7481, 0.6675]
+dfg_accuracy: 0.7556, baseline_accuracy: 0.7551, upper_limit: 0.9104
+absolute improvement rate: 0.0005, relative improvement rate: 0.0032
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['vgg16', 'densenet', 'alexnet', 'squeezenet', 'resnet']
+bug_ids: [12, 12, 12, 12, 12]
+model_test_acc: [0.66, 0.757, 0.657, 0.6765000000000001, 0.6875]
+dfg_accuracy: 0.7610, baseline_accuracy: 0.7615, upper_limit: 0.9115
+absolute improvement rate: -0.0005, relative improvement rate: -0.0033
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['densenet', 'vgg16', 'resnet', 'squeezenet', 'alexnet']
+bug_ids: [1, 0, 0, 0, 0]
+model_test_acc: [0.8297, 0.7992, 0.8016, 0.8040999999999999, 0.7853]
+dfg_accuracy: 0.8720, baseline_accuracy: 0.8651, upper_limit: 0.9601
+absolute improvement rate: 0.0069, relative improvement rate: 0.0726
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['squeezenet', 'alexnet', 'vgg16', 'resnet', 'densenet']
+bug_ids: [2, 0, 0, 0, 0]
+model_test_acc: [0.7963, 0.7853, 0.7992, 0.8016, 0.8608]
+dfg_accuracy: 0.8757, baseline_accuracy: 0.8690, upper_limit: 0.9629
+absolute improvement rate: 0.0067, relative improvement rate: 0.0714
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['vgg16', 'squeezenet', 'alexnet', 'resnet', 'densenet']
+bug_ids: [3, 0, 0, 0, 0]
+model_test_acc: [0.8136, 0.8040999999999999, 0.7853, 0.8016, 0.8608]
+dfg_accuracy: 0.8715, baseline_accuracy: 0.8683, upper_limit: 0.9626
+absolute improvement rate: 0.0032, relative improvement rate: 0.0339
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['resnet', 'densenet', 'alexnet', 'squeezenet', 'vgg16']
+bug_ids: [4, 0, 0, 0, 0]
+model_test_acc: [0.7047, 0.8608, 0.7853, 0.8040999999999999, 0.7992]
+dfg_accuracy: 0.8648, baseline_accuracy: 0.8534, upper_limit: 0.9562
+absolute improvement rate: 0.0114, relative improvement rate: 0.1109
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['densenet', 'resnet', 'alexnet', 'squeezenet', 'vgg16']
+bug_ids: [5, 0, 0, 0, 0]
+model_test_acc: [0.7288, 0.8016, 0.7853, 0.8040999999999999, 0.7992]
+dfg_accuracy: 0.8580, baseline_accuracy: 0.8536, upper_limit: 0.9570
+absolute improvement rate: 0.0044, relative improvement rate: 0.0426
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['vgg16', 'squeezenet', 'densenet', 'alexnet', 'resnet']
+bug_ids: [6, 0, 0, 0, 0]
+model_test_acc: [0.7909, 0.8040999999999999, 0.8608, 0.7853, 0.8016]
+dfg_accuracy: 0.8717, baseline_accuracy: 0.8665, upper_limit: 0.9612
+absolute improvement rate: 0.0052, relative improvement rate: 0.0549
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['densenet', 'alexnet', 'resnet', 'squeezenet', 'vgg16']
+bug_ids: [7, 0, 0, 0, 0]
+model_test_acc: [0.7587, 0.7853, 0.8016, 0.8040999999999999, 0.7992]
+dfg_accuracy: 0.8588, baseline_accuracy: 0.8534, upper_limit: 0.9581
+absolute improvement rate: 0.0054, relative improvement rate: 0.0516
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['squeezenet', 'vgg16', 'alexnet', 'resnet', 'densenet']
+bug_ids: [8, 0, 0, 0, 0]
+model_test_acc: [0.7648, 0.7992, 0.7853, 0.8016, 0.8608]
+dfg_accuracy: 0.8720, baseline_accuracy: 0.8656, upper_limit: 0.9611
+absolute improvement rate: 0.0064, relative improvement rate: 0.0670
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['squeezenet', 'vgg16', 'resnet', 'alexnet', 'densenet']
+bug_ids: [9, 0, 0, 0, 0]
+model_test_acc: [0.7129000000000001, 0.7992, 0.8016, 0.7853, 0.8608]
+dfg_accuracy: 0.8692, baseline_accuracy: 0.8593, upper_limit: 0.9598
+absolute improvement rate: 0.0099, relative improvement rate: 0.0985
+==================================================
+==================================================
+Dataset: CIFAR10
+Models: ['alexnet', 'densenet', 'squeezenet', 'vgg16', 'resnet']
+bug_ids: [10, 0, 0, 0, 0]
+model_test_acc: [0.7706999999999999, 0.8608, 0.8040999999999999, 0.7992, 0.8016]
+dfg_accuracy: 0.8726, baseline_accuracy: 0.8674, upper_limit: 0.9608
+absolute improvement rate: 0.0052, relative improvement rate: 0.0557
+==================================================

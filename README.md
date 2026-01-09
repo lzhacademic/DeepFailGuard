@@ -20,7 +20,7 @@ DeepFailGuard/
 ├── mydataset/            # Code for dataset processing (Data files should be placed here)
 ├── mymodel/              # Code for model architectures (Pre-trained weights should be placed here)
 ├── input_information/    # [To be created] Cached boundary distance information
-├── Attacker.py           # Implementation of distance estimation
+├── Attacker.py           # Implementation of adversarial pertubation analysis
 ├── DatasetManager.py     # Dataset creation and management
 ├── DeepFailGuard.py      # Core implementation of the DeepFailGuard method
 ├── FaultInjector.py      # Module for injecting faults into datasets and models
